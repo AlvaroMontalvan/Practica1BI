@@ -1,0 +1,1089 @@
+invoice_no;customer;date;amount;currency;notes;notes_1
+1;Ana Novák         ;2026-03-14   ;2637.12 ;USD  ;paid in full                     ;ok
+2;Jörg Müller       ;2026-03-14   ;1978.51 ;USD  ;"customer said ""send it twice""    ";ok
+3;Zoë Fitzgerald    ;2026-03-14   ;3738.32 ; USD ;follow up, then close            ;ok
+4;Renée Dubois      ;2026-03-14   ;6955.90 ;USD  ;split shipment
+second box pending;
+5;SÃ¸ren Kierkegaard;2026-03-14   ;1476.95 ;USD  ;  padded on both sides           ;ok
+6;Chloé Martin      ;2026-03-14   ;4885.30 ;USD  ;;ok
+7;Ana Novák         ;2026-03-14   ;4393.51 ;USD  ;paid in full                     ;ok
+8;Jörg Müller       ;2026-03-14   ;5262.46 ; USD ;"customer said ""send it twice""    ";ok
+9;Zoë Fitzgerald    ;2026-03-14   ;1482.37 ;USD  ;follow up, then close            ;
+10;Renée Dubois      ;2026-03-14   ;5151.68 ;USD  ;split shipment
+second box pending;ok
+11;Søren Kierkegaard ;2026-03-14   ;9445.04 ;USD  ;  padded on both sides           ;ok
+13;Ana Novák         ;2026-03-14   ;2863.36 ; USD ;paid in full                     ;ok
+14;JÃ¶rg MÃ¼ller     ;2026-03-14   ;6892.89 ;USD  ;"customer said ""send it twice""    ";ok
+15;Zoë Fitzgerald    ;2026-03-14   ;4317.75 ;USD  ;follow up, then close            ;ok
+16;Renée Dubois      ;2026-03-14   ;8707.86 ;USD  ;split shipment
+second box pending;ok
+17;Søren Kierkegaard ;2026-03-14   ;1714.98 ;USD  ;  padded on both sides           ;ok
+18;Chloé Martin      ;2026-03-14   ;9947.63 ; USD ;;ok
+19;Ana Novák         ;2026-03-14   ;1330.75 ;USD  ;paid in full                     ;ok
+20;Jörg Müller       ;2026-03-14   ;5882.85 ;USD  ;"customer said ""send it twice""    ";
+21;Zoë Fitzgerald    ;2026-03-14   ;5282.43 ;USD  ;follow up, then close            ;ok
+22;Renée Dubois      ;2026-03-14   ;9267.93 ;USD  ;split shipment
+second box pending;ok
+23;SÃ¸ren Kierkegaard;2026-03-14   ;4916.70 ; USD ;  padded on both sides           ;ok
+25;Ana Novák         ;2026-03-14   ;5763.76 ;USD  ;paid in full                     ;ok
+26;Jörg Müller       ;2026-03-14   ;4549.66 ;USD  ;"customer said ""send it twice""    ";
+27;Zoë Fitzgerald    ;2026-03-14   ;6359.69 ;USD  ;follow up, then close            ;ok
+28;Renée Dubois      ;2026-03-14   ;4576.23 ; USD ;split shipment
+second box pending;
+29;Søren Kierkegaard ;2026-03-14   ;4734.64 ;USD  ;  padded on both sides           ;ok
+30;Chloé Martin      ;2026-03-14   ;2270.41 ;USD  ;;ok
+31;Ana Novák         ;2026-03-14   ;3362.77 ;USD  ;paid in full                     ;ok
+32;JÃ¶rg MÃ¼ller     ;2026-03-14   ;1368.46 ;USD  ;"customer said ""send it twice""    ";ok
+33;Zoë Fitzgerald    ;2026-03-14   ;3135.26 ; USD ;follow up, then close            ;ok
+34;Renée Dubois      ;2026-03-14   ;7221.97 ;USD  ;split shipment
+second box pending;ok
+35;Søren Kierkegaard ;2026-03-14   ;6158.60 ;USD  ;  padded on both sides           ;ok
+37;Ana Novák         ;2026-03-14   ;5364.26 ;USD  ;paid in full                     ;ok
+38;Jörg Müller       ;2026-03-14   ;8438.75 ; USD ;"customer said ""send it twice""    ";ok
+39;Zoë Fitzgerald    ;2026-03-14   ;8632.41 ;USD  ;follow up, then close            ;ok
+40;Renée Dubois      ;2026-03-14   ;4214.82 ;USD  ;split shipment
+second box pending;ok
+41;SÃ¸ren Kierkegaard;2026-03-14   ;4396.91 ;USD  ;  padded on both sides           ;ok
+42;Chloé Martin      ;2026-03-14   ;9497.98 ;USD  ;;ok
+43;Ana Novák         ;2026-03-14   ;1060.52 ; USD ;paid in full                     ;
+44;Jörg Müller       ;2026-03-14   ;7619.96 ;USD  ;"customer said ""send it twice""    ";
+45;Zoë Fitzgerald    ;2026-03-14   ;7530.89 ;USD  ;follow up, then close            ;ok
+46;Renée Dubois      ;2026-03-14   ;2516.87 ;USD  ;split shipment
+second box pending;ok
+47;Søren Kierkegaard ;2026-03-14   ;7420.53 ;USD  ;  padded on both sides           ;ok
+49;Ana Novák         ;2026-03-14   ;8153.55 ;USD  ;paid in full                     ;ok
+50;JÃ¶rg MÃ¼ller     ;2026-03-14   ;7573.62 ;USD  ;"customer said ""send it twice""    ";ok
+51;Zoë Fitzgerald    ;2026-03-14   ;9564.45 ;USD  ;follow up, then close            ;ok
+52;Renée Dubois      ;2026-03-14   ;2101.75 ;USD  ;split shipment
+second box pending;
+53;Søren Kierkegaard ;2026-03-14   ;7597.70 ; USD ;  padded on both sides           ;ok
+54;Chloé Martin      ;2026-03-14   ;7598.79 ;USD  ;;ok
+55;Ana Novák         ;2026-03-14   ;7483.38 ;USD  ;paid in full                     ;ok
+56;Jörg Müller       ;2026-03-14   ;3735.27 ;USD  ;"customer said ""send it twice""    ";ok
+57;Zoë Fitzgerald    ;2026-03-14   ;2158.15 ;USD  ;follow up, then close            ;ok
+58;Renée Dubois      ;2026-03-14   ;3487.00 ; USD ;split shipment
+second box pending;ok
+59;SÃ¸ren Kierkegaard;2026-03-14   ;6452.90 ;USD  ;  padded on both sides           ;ok
+61;Ana Novák         ;2026-03-14   ;5798.94 ;USD  ;paid in full                     ;ok
+62;Jörg Müller       ;2026-03-14   ;1713.91 ;USD  ;"customer said ""send it twice""    ";ok
+63;Zoë Fitzgerald    ;2026-03-14   ;3755.53 ; USD ;follow up, then close            ;ok
+64;Renée Dubois      ;2026-03-14   ;5185.07 ;USD  ;split shipment
+second box pending;ok
+65;Søren Kierkegaard ;2026-03-14   ;2600.91 ;USD  ;  padded on both sides           ;ok
+66;Chloé Martin      ;2026-03-14   ;9978.68 ;USD  ;;ok
+67;Ana Novák         ;2026-03-14   ;4367.62 ;USD  ;paid in full                     ;ok
+68;JÃ¶rg MÃ¼ller     ;2026-03-14   ;4403.67 ; USD ;"customer said ""send it twice""    ";
+69;Zoë Fitzgerald    ;2026-03-14   ;4441.41 ;USD  ;follow up, then close            ;ok
+70;Renée Dubois      ;2026-03-14   ;6310.05 ;USD  ;split shipment
+second box pending;ok
+71;Søren Kierkegaard ;2026-03-14   ;9147.20 ;USD  ;  padded on both sides           ;ok
+73;Ana Novák         ;2026-03-14   ;7443.83 ; USD ;paid in full                     ;ok
+74;Jörg Müller       ;2026-03-14   ;7743.95 ;USD  ;"customer said ""send it twice""    ";ok
+75;Zoë Fitzgerald    ;2026-03-14   ;2969.66 ;USD  ;follow up, then close            ;ok
+76;Renée Dubois      ;2026-03-14   ;1939.05 ;USD  ;split shipment
+second box pending;
+77;SÃ¸ren Kierkegaard;2026-03-14   ;2132.03 ;USD  ;  padded on both sides           ;
+78;Chloé Martin      ;2026-03-14   ;4883.95 ; USD ;;ok
+79;Ana Novák         ;2026-03-14   ;1608.39 ;USD  ;paid in full                     ;ok
+80;Jörg Müller       ;2026-03-14   ;3271.11 ;USD  ;"customer said ""send it twice""    ";ok
+81;Zoë Fitzgerald    ;2026-03-14   ;9729.19 ;USD  ;follow up, then close            ;ok
+82;Renée Dubois      ;2026-03-14   ;7793.52 ;USD  ;split shipment
+second box pending;ok
+83;Søren Kierkegaard ;2026-03-14   ;4376.82 ; USD ;  padded on both sides           ;ok
+85;Ana Novák         ;2026-03-14   ;2942.19 ;USD  ;paid in full                     ;ok
+86;JÃ¶rg MÃ¼ller     ;2026-03-14   ;4108.98 ;USD  ;"customer said ""send it twice""    ";ok
+87;Zoë Fitzgerald    ;2026-03-14   ;2991.51 ;USD  ;follow up, then close            ;ok
+88;Renée Dubois      ;2026-03-14   ;2832.60 ; USD ;split shipment
+second box pending;ok
+89;Søren Kierkegaard ;2026-03-14   ;3586.83 ;USD  ;  padded on both sides           ;ok
+90;Chloé Martin      ;2026-03-14   ;6711.70 ;USD  ;;ok
+91;Ana Novák         ;2026-03-14   ;3120.31 ;USD  ;paid in full                     ;ok
+92;Jörg Müller       ;2026-03-14   ;1379.63 ;USD  ;"customer said ""send it twice""    ";
+93;Zoë Fitzgerald    ;2026-03-14   ;5747.92 ; USD ;follow up, then close            ;ok
+94;Renée Dubois      ;2026-03-14   ;4821.60 ;USD  ;split shipment
+second box pending;
+95;SÃ¸ren Kierkegaard;2026-03-14   ;4777.60 ;USD  ;  padded on both sides           ;ok
+97;Ana Novák         ;2026-03-14   ;9539.98 ;USD  ;paid in full                     ;ok
+98;Jörg Müller       ;2026-03-14   ;7512.49 ; USD ;"customer said ""send it twice""    ";ok
+99;Zoë Fitzgerald    ;2026-03-14   ;2371.01 ;USD  ;follow up, then close            ;ok
+100;Renée Dubois      ;2026-03-14   ;8756.55 ;USD  ;split shipment
+second box pending;
+101;Søren Kierkegaard ;2026-03-14   ;6881.72 ;USD  ;  padded on both sides           ;ok
+102;Chloé Martin      ;2026-03-14   ;9381.04 ;USD  ;;ok
+103;Ana Novák         ;2026-03-14   ;6406.92 ; USD ;paid in full                     ;ok
+104;JÃ¶rg MÃ¼ller     ;2026-03-14   ;3283.28 ;USD  ;"customer said ""send it twice""    ";ok
+105;Zoë Fitzgerald    ;2026-03-14   ;4375.24 ;USD  ;follow up, then close            ;ok
+106;Renée Dubois      ;2026-03-14   ;4130.76 ;USD  ;split shipment
+second box pending;ok
+107;Søren Kierkegaard ;2026-03-14   ;9068.06 ;USD  ;  padded on both sides           ;ok
+109;Ana Novák         ;2026-03-14   ;6251.65 ;USD  ;paid in full                     ;ok
+110;Jörg Müller       ;2026-03-14   ;8609.60 ;USD  ;"customer said ""send it twice""    ";ok
+111;Zoë Fitzgerald    ;2026-03-14   ;1989.01 ;USD  ;follow up, then close            ;
+112;Renée Dubois      ;2026-03-14   ;7887.67 ;USD  ;split shipment
+second box pending;ok
+113;SÃ¸ren Kierkegaard;2026-03-14   ;4745.95 ; USD ;  padded on both sides           ;ok
+114;Chloé Martin      ;2026-03-14   ;6573.14 ;USD  ;;ok
+115;Ana Novák         ;2026-03-14   ;3180.06 ;USD  ;paid in full                     ;ok
+116;Jörg Müller       ;2026-03-14   ;8670.81 ;USD  ;"customer said ""send it twice""    ";
+117;Zoë Fitzgerald    ;2026-03-14   ;1102.91 ;USD  ;follow up, then close            ;ok
+118;Renée Dubois      ;2026-03-14   ;8659.78 ; USD ;split shipment
+second box pending;ok
+119;Søren Kierkegaard ;2026-03-14   ;2813.68 ;USD  ;  padded on both sides           ;ok
+121;Ana Novák         ;2026-03-14   ;2674.63 ;USD  ;paid in full                     ;ok
+122;JÃ¶rg MÃ¼ller     ;2026-03-14   ;6781.42 ;USD  ;"customer said ""send it twice""    ";ok
+123;Zoë Fitzgerald    ;2026-03-14   ;6983.02 ; USD ;follow up, then close            ;ok
+124;Renée Dubois      ;2026-03-14   ;9689.43 ;USD  ;split shipment
+second box pending;
+125;Søren Kierkegaard ;2026-03-14   ;6373.56 ;USD  ;  padded on both sides           ;ok
+126;Chloé Martin      ;2026-03-14   ;7900.48 ;USD  ;;ok
+127;Ana Novák         ;2026-03-14   ;6562.62 ;USD  ;paid in full                     ;ok
+128;Jörg Müller       ;2026-03-14   ;7444.22 ; USD ;"customer said ""send it twice""    ";
+129;Zoë Fitzgerald    ;2026-03-14   ;9119.50 ;USD  ;follow up, then close            ;ok
+130;Renée Dubois      ;2026-03-14   ;4302.66 ;USD  ;split shipment
+second box pending;ok
+131;SÃ¸ren Kierkegaard;2026-03-14   ;8504.02 ;USD  ;  padded on both sides           ;ok
+133;Ana Novák         ;2026-03-14   ;8564.11 ; USD ;paid in full                     ;ok
+134;Jörg Müller       ;2026-03-14   ;8753.83 ;USD  ;"customer said ""send it twice""    ";ok
+135;Zoë Fitzgerald    ;2026-03-14   ;7734.78 ;USD  ;follow up, then close            ;ok
+136;Renée Dubois      ;2026-03-14   ;8431.73 ;USD  ;split shipment
+second box pending;ok
+137;Søren Kierkegaard ;2026-03-14   ;9974.61 ;USD  ;  padded on both sides           ;ok
+138;Chloé Martin      ;2026-03-14   ;4710.67 ; USD ;;ok
+139;Ana Novák         ;2026-03-14   ;7238.42 ;USD  ;paid in full                     ;ok
+140;JÃ¶rg MÃ¼ller     ;2026-03-14   ;8412.39 ;USD  ;"customer said ""send it twice""    ";
+141;Zoë Fitzgerald    ;2026-03-14   ;8716.34 ;USD  ;follow up, then close            ;ok
+142;Renée Dubois      ;2026-03-14   ;2563.10 ;USD  ;split shipment
+second box pending;ok
+143;Søren Kierkegaard ;2026-03-14   ;4031.88 ; USD ;  padded on both sides           ;ok
+145;Ana Novák         ;2026-03-14   ;3789.87 ;USD  ;paid in full                     ;
+146;Jörg Müller       ;2026-03-14   ;3995.83 ;USD  ;"customer said ""send it twice""    ";ok
+147;Zoë Fitzgerald    ;2026-03-14   ;2255.30 ;USD  ;follow up, then close            ;ok
+148;Renée Dubois      ;2026-03-14   ;9737.28 ; USD ;split shipment
+second box pending;
+149;SÃ¸ren Kierkegaard;2026-03-14   ;6518.46 ;USD  ;  padded on both sides           ;ok
+150;Chloé Martin      ;2026-03-14   ;5310.50 ;USD  ;;ok
+151;Ana Novák         ;2026-03-14   ;2222.33 ;USD  ;paid in full                     ;ok
+152;Jörg Müller       ;2026-03-14   ;7198.72 ;USD  ;"customer said ""send it twice""    ";ok
+153;Zoë Fitzgerald    ;2026-03-14   ;4463.28 ; USD ;follow up, then close            ;ok
+154;Renée Dubois      ;2026-03-14   ;6168.15 ;USD  ;split shipment
+second box pending;ok
+155;Søren Kierkegaard ;2026-03-14   ;6369.59 ;USD  ;  padded on both sides           ;ok
+157;Ana Novák         ;2026-03-14   ;3523.04 ;USD  ;paid in full                     ;ok
+158;JÃ¶rg MÃ¼ller     ;2026-03-14   ;3897.14 ; USD ;"customer said ""send it twice""    ";ok
+159;Zoë Fitzgerald    ;2026-03-14   ;8343.71 ;USD  ;follow up, then close            ;ok
+160;Renée Dubois      ;2026-03-14   ;4936.40 ;USD  ;split shipment
+second box pending;ok
+161;Søren Kierkegaard ;2026-03-14   ;8579.36 ;USD  ;  padded on both sides           ;ok
+162;Chloé Martin      ;2026-03-14   ;5804.15 ;USD  ;;
+163;Ana Novák         ;2026-03-14   ;2581.70 ; USD ;paid in full                     ;ok
+164;Jörg Müller       ;2026-03-14   ;2082.60 ;USD  ;"customer said ""send it twice""    ";
+165;Zoë Fitzgerald    ;2026-03-14   ;9730.96 ;USD  ;follow up, then close            ;ok
+166;Renée Dubois      ;2026-03-14   ;8764.52 ;USD  ;split shipment
+second box pending;ok
+167;SÃ¸ren Kierkegaard;2026-03-14   ;8729.16 ;USD  ;  padded on both sides           ;ok
+;;;;;;
+169;Ana Novák         ;2026-03-14   ;2146.98 ;USD  ;paid in full                     ;ok
+170;Jörg Müller       ;2026-03-14   ;6378.91 ;USD  ;"customer said ""send it twice""    ";ok
+171;Zoë Fitzgerald    ;2026-03-14   ;1512.89 ;USD  ;follow up, then close            ;ok
+172;Renée Dubois      ;2026-03-14   ;3417.32 ;USD  ;split shipment
+second box pending;
+173;Søren Kierkegaard ;2026-03-14   ;6198.19 ; USD ;  padded on both sides           ;ok
+174;Chloé Martin      ;2026-03-14   ;5514.02 ;USD  ;;ok
+175;Ana Novák         ;2026-03-14   ;2148.67 ;USD  ;paid in full                     ;ok
+176;JÃ¶rg MÃ¼ller     ;2026-03-14   ;9101.09 ;USD  ;"customer said ""send it twice""    ";ok
+177;Zoë Fitzgerald    ;2026-03-14   ;9220.08 ;USD  ;follow up, then close            ;ok
+178;Renée Dubois      ;2026-03-14   ;1336.73 ; USD ;split shipment
+second box pending;ok
+179;Søren Kierkegaard ;2026-03-14   ;4355.58 ;USD  ;  padded on both sides           ;
+181;Ana Novák         ;2026-03-14   ;9006.21 ;USD  ;paid in full                     ;ok
+182;Jörg Müller       ;2026-03-14   ;6926.96 ;USD  ;"customer said ""send it twice""    ";ok
+183;Zoë Fitzgerald    ;2026-03-14   ;2040.72 ; USD ;follow up, then close            ;ok
+184;Renée Dubois      ;2026-03-14   ;3801.88 ;USD  ;split shipment
+second box pending;ok
+185;SÃ¸ren Kierkegaard;2026-03-14   ;3262.93 ;USD  ;  padded on both sides           ;ok
+186;Chloé Martin      ;2026-03-14   ;8372.01 ;USD  ;;ok
+187;Ana Novák         ;2026-03-14   ;7291.54 ;USD  ;paid in full                     ;ok
+188;Jörg Müller       ;2026-03-14   ;1999.70 ; USD ;"customer said ""send it twice""    ";
+189;Zoë Fitzgerald    ;2026-03-14   ;5986.85 ;USD  ;follow up, then close            ;ok
+190;Renée Dubois      ;2026-03-14   ;8736.15 ;USD  ;split shipment
+second box pending;ok
+191;Søren Kierkegaard ;2026-03-14   ;4430.65 ;USD  ;  padded on both sides           ;ok
+193;Ana Novák         ;2026-03-14   ;1114.90 ; USD ;paid in full                     ;ok
+194;JÃ¶rg MÃ¼ller     ;2026-03-14   ;7695.80 ;USD  ;"customer said ""send it twice""    ";ok
+195;Zoë Fitzgerald    ;2026-03-14   ;9926.50 ;USD  ;follow up, then close            ;ok
+196;Renée Dubois      ;2026-03-14   ;7419.96 ;USD  ;split shipment
+second box pending;
+197;Søren Kierkegaard ;2026-03-14   ;5267.09 ;USD  ;  padded on both sides           ;ok
+198;Chloé Martin      ;2026-03-14   ;9805.12 ; USD ;;ok
+199;Ana Novák         ;2026-03-14   ;9354.56 ;USD  ;paid in full                     ;ok
+200;Jörg Müller       ;2026-03-14   ;3496.83 ;USD  ;"customer said ""send it twice""    ";ok
+201;Zoë Fitzgerald    ;2026-03-14   ;4910.23 ;USD  ;follow up, then close            ;ok
+202;Renée Dubois      ;2026-03-14   ;5104.11 ;USD  ;split shipment
+second box pending;ok
+203;SÃ¸ren Kierkegaard;2026-03-14   ;9107.35 ; USD ;  padded on both sides           ;ok
+205;Ana Novák         ;2026-03-14   ;5907.16 ;USD  ;paid in full                     ;ok
+206;Jörg Müller       ;2026-03-14   ;8994.72 ;USD  ;"customer said ""send it twice""    ";ok
+207;Zoë Fitzgerald    ;2026-03-14   ;7406.00 ;USD  ;follow up, then close            ;ok
+208;Renée Dubois      ;2026-03-14   ;9158.35 ; USD ;split shipment
+second box pending;ok
+209;Søren Kierkegaard ;2026-03-14   ;9667.84 ;USD  ;  padded on both sides           ;ok
+210;Chloé Martin      ;2026-03-14   ;1010.26 ;USD  ;;ok
+211;Ana Novák         ;2026-03-14   ;9764.37 ;USD  ;paid in full                     ;ok
+212;JÃ¶rg MÃ¼ller     ;2026-03-14   ;5708.22 ;USD  ;"customer said ""send it twice""    ";
+213;Zoë Fitzgerald    ;2026-03-14   ;6935.48 ; USD ;follow up, then close            ;
+214;Renée Dubois      ;2026-03-14   ;8466.30 ;USD  ;split shipment
+second box pending;ok
+215;Søren Kierkegaard ;2026-03-14   ;2466.68 ;USD  ;  padded on both sides           ;ok
+217;Ana Novák         ;2026-03-14   ;8951.27 ;USD  ;paid in full                     ;ok
+218;Jörg Müller       ;2026-03-14   ;9660.31 ; USD ;"customer said ""send it twice""    ";ok
+219;Zoë Fitzgerald    ;2026-03-14   ;2905.90 ;USD  ;follow up, then close            ;ok
+220;Renée Dubois      ;2026-03-14   ;3022.95 ;USD  ;split shipment
+second box pending;
+221;SÃ¸ren Kierkegaard;2026-03-14   ;5985.96 ;USD  ;  padded on both sides           ;ok
+222;Chloé Martin      ;2026-03-14   ;3083.13 ;USD  ;;ok
+223;Ana Novák         ;2026-03-14   ;2417.58 ; USD ;paid in full                     ;ok
+224;Jörg Müller       ;2026-03-14   ;3671.38 ;USD  ;"customer said ""send it twice""    ";ok
+225;Zoë Fitzgerald    ;2026-03-14   ;8812.65 ;USD  ;follow up, then close            ;ok
+226;Renée Dubois      ;2026-03-14   ;8957.07 ;USD  ;split shipment
+second box pending;ok
+227;Søren Kierkegaard ;2026-03-14   ;3899.31 ;USD  ;  padded on both sides           ;ok
+229;Ana Novák         ;2026-03-14   ;3228.24 ;USD  ;paid in full                     ;ok
+230;JÃ¶rg MÃ¼ller     ;2026-03-14   ;7692.45 ;USD  ;"customer said ""send it twice""    ";
+231;Zoë Fitzgerald    ;2026-03-14   ;4353.92 ;USD  ;follow up, then close            ;ok
+232;Renée Dubois      ;2026-03-14   ;3796.03 ;USD  ;split shipment
+second box pending;ok
+233;Søren Kierkegaard ;2026-03-14   ;6134.42 ; USD ;  padded on both sides           ;ok
+234;Chloé Martin      ;2026-03-14   ;3900.78 ;USD  ;;ok
+235;Ana Novák         ;2026-03-14   ;7735.59 ;USD  ;paid in full                     ;ok
+236;Jörg Müller       ;2026-03-14   ;2943.37 ;USD  ;"customer said ""send it twice""    ";
+237;Zoë Fitzgerald    ;2026-03-14   ;1156.53 ;USD  ;follow up, then close            ;ok
+238;Renée Dubois      ;2026-03-14   ;7221.77 ; USD ;split shipment
+second box pending;ok
+239;SÃ¸ren Kierkegaard;2026-03-14   ;2537.89 ;USD  ;  padded on both sides           ;ok
+241;Ana Novák         ;2026-03-14   ;6779.65 ;USD  ;paid in full                     ;ok
+242;Jörg Müller       ;2026-03-14   ;9990.98 ;USD  ;"customer said ""send it twice""    ";ok
+243;Zoë Fitzgerald    ;2026-03-14   ;4483.10 ; USD ;follow up, then close            ;ok
+244;Renée Dubois      ;2026-03-14   ;2692.62 ;USD  ;split shipment
+second box pending;
+245;Søren Kierkegaard ;2026-03-14   ;6137.72 ;USD  ;  padded on both sides           ;ok
+246;Chloé Martin      ;2026-03-14   ;7158.11 ;USD  ;;ok
+247;Ana Novák         ;2026-03-14   ;7237.75 ;USD  ;paid in full                     ;
+248;JÃ¶rg MÃ¼ller     ;2026-03-14   ;4662.62 ; USD ;"customer said ""send it twice""    ";ok
+249;Zoë Fitzgerald    ;2026-03-14   ;4529.20 ;USD  ;follow up, then close            ;ok
+250;Renée Dubois      ;2026-03-14   ;1460.26 ;USD  ;split shipment
+second box pending;ok
+251;Søren Kierkegaard ;2026-03-14   ;2443.38 ;USD  ;  padded on both sides           ;ok
+253;Ana Novák         ;2026-03-14   ;7067.10 ; USD ;paid in full                     ;ok
+254;Jörg Müller       ;2026-03-14   ;5093.86 ;USD  ;"customer said ""send it twice""    ";ok
+255;Zoë Fitzgerald    ;2026-03-14   ;1409.29 ;USD  ;follow up, then close            ;ok
+256;Renée Dubois      ;2026-03-14   ;9446.80 ;USD  ;split shipment
+second box pending;ok
+257;SÃ¸ren Kierkegaard;2026-03-14   ;4216.38 ;USD  ;  padded on both sides           ;ok
+258;Chloé Martin      ;2026-03-14   ;9867.54 ; USD ;;ok
+259;Ana Novák         ;2026-03-14   ;5187.45 ;USD  ;paid in full                     ;ok
+260;Jörg Müller       ;2026-03-14   ;7300.56 ;USD  ;"customer said ""send it twice""    ";
+261;Zoë Fitzgerald    ;2026-03-14   ;6079.85 ;USD  ;follow up, then close            ;ok
+262;Renée Dubois      ;2026-03-14   ;5406.03 ;USD  ;split shipment
+second box pending;ok
+263;Søren Kierkegaard ;2026-03-14   ;4427.91 ; USD ;  padded on both sides           ;ok
+265;Ana Novák         ;2026-03-14   ;9330.75 ;USD  ;paid in full                     ;ok
+266;JÃ¶rg MÃ¼ller     ;2026-03-14   ;8587.89 ;USD  ;"customer said ""send it twice""    ";ok
+267;Zoë Fitzgerald    ;2026-03-14   ;1507.56 ;USD  ;follow up, then close            ;ok
+268;Renée Dubois      ;2026-03-14   ;6383.03 ; USD ;split shipment
+second box pending;
+269;Søren Kierkegaard ;2026-03-14   ;7889.02 ;USD  ;  padded on both sides           ;ok
+270;Chloé Martin      ;2026-03-14   ;4407.54 ;USD  ;;ok
+271;Ana Novák         ;2026-03-14   ;7400.46 ;USD  ;paid in full                     ;ok
+272;Jörg Müller       ;2026-03-14   ;6458.46 ;USD  ;"customer said ""send it twice""    ";ok
+273;Zoë Fitzgerald    ;2026-03-14   ;9425.36 ; USD ;follow up, then close            ;ok
+274;Renée Dubois      ;2026-03-14   ;8757.11 ;USD  ;split shipment
+second box pending;ok
+275;SÃ¸ren Kierkegaard;2026-03-14   ;4410.82 ;USD  ;  padded on both sides           ;ok
+277;Ana Novák         ;2026-03-14   ;5955.29 ;USD  ;paid in full                     ;ok
+278;Jörg Müller       ;2026-03-14   ;5360.60 ; USD ;"customer said ""send it twice""    ";ok
+279;Zoë Fitzgerald    ;2026-03-14   ;1544.33 ;USD  ;follow up, then close            ;ok
+280;Renée Dubois      ;2026-03-14   ;9962.07 ;USD  ;split shipment
+second box pending;ok
+281;Søren Kierkegaard ;2026-03-14   ;8891.56 ;USD  ;  padded on both sides           ;
+282;Chloé Martin      ;2026-03-14   ;2735.03 ;USD  ;;ok
+283;Ana Novák         ;2026-03-14   ;7873.07 ; USD ;paid in full                     ;ok
+284;JÃ¶rg MÃ¼ller     ;2026-03-14   ;3175.83 ;USD  ;"customer said ""send it twice""    ";
+285;Zoë Fitzgerald    ;2026-03-14   ;5427.70 ;USD  ;follow up, then close            ;ok
+286;Renée Dubois      ;2026-03-14   ;8058.53 ;USD  ;split shipment
+second box pending;ok
+287;Søren Kierkegaard ;2026-03-14   ;7051.00 ;USD  ;  padded on both sides           ;ok
+289;Ana Novák         ;2026-03-14   ;5952.21 ;USD  ;paid in full                     ;ok
+290;Jörg Müller       ;2026-03-14   ;2596.33 ;USD  ;"customer said ""send it twice""    ";ok
+291;Zoë Fitzgerald    ;2026-03-14   ;3220.39 ;USD  ;follow up, then close            ;ok
+292;Renée Dubois      ;2026-03-14   ;1366.62 ;USD  ;split shipment
+second box pending;
+293;SÃ¸ren Kierkegaard;2026-03-14   ;3481.28 ; USD ;  padded on both sides           ;ok
+294;Chloé Martin      ;2026-03-14   ;1836.52 ;USD  ;;ok
+295;Ana Novák         ;2026-03-14   ;6215.27 ;USD  ;paid in full                     ;ok
+296;Jörg Müller       ;2026-03-14   ;4830.24 ;USD  ;"customer said ""send it twice""    ";ok
+297;Zoë Fitzgerald    ;2026-03-14   ;7742.90 ;USD  ;follow up, then close            ;ok
+298;Renée Dubois      ;2026-03-14   ;3322.12 ; USD ;split shipment
+second box pending;
+299;Søren Kierkegaard ;2026-03-14   ;1024.34 ;USD  ;  padded on both sides           ;ok
+301;Ana Novák         ;2026-03-14   ;7045.77 ;USD  ;paid in full                     ;ok
+302;JÃ¶rg MÃ¼ller     ;2026-03-14   ;1071.74 ;USD  ;"customer said ""send it twice""    ";ok
+303;Zoë Fitzgerald    ;2026-03-14   ;3639.06 ; USD ;follow up, then close            ;ok
+304;Renée Dubois      ;2026-03-14   ;2071.95 ;USD  ;split shipment
+second box pending;ok
+305;Søren Kierkegaard ;2026-03-14   ;4895.49 ;USD  ;  padded on both sides           ;ok
+306;Chloé Martin      ;2026-03-14   ;9973.68 ;USD  ;;ok
+307;Ana Novák         ;2026-03-14   ;8049.98 ;USD  ;paid in full                     ;ok
+308;Jörg Müller       ;2026-03-14   ;6398.17 ; USD ;"customer said ""send it twice""    ";
+309;Zoë Fitzgerald    ;2026-03-14   ;8056.30 ;USD  ;follow up, then close            ;ok
+310;Renée Dubois      ;2026-03-14   ;6395.23 ;USD  ;split shipment
+second box pending;ok
+311;SÃ¸ren Kierkegaard;2026-03-14   ;9893.20 ;USD  ;  padded on both sides           ;ok
+313;Ana Novák         ;2026-03-14   ;8894.97 ; USD ;paid in full                     ;ok
+314;Jörg Müller       ;2026-03-14   ;9079.56 ;USD  ;"customer said ""send it twice""    ";ok
+315;Zoë Fitzgerald    ;2026-03-14   ;3330.60 ;USD  ;follow up, then close            ;
+316;Renée Dubois      ;2026-03-14   ;8176.52 ;USD  ;split shipment
+second box pending;
+317;Søren Kierkegaard ;2026-03-14   ;9811.49 ;USD  ;  padded on both sides           ;ok
+318;Chloé Martin      ;2026-03-14   ;4398.55 ; USD ;;ok
+319;Ana Novák         ;2026-03-14   ;2215.35 ;USD  ;paid in full                     ;ok
+320;JÃ¶rg MÃ¼ller     ;2026-03-14   ;6560.74 ;USD  ;"customer said ""send it twice""    ";ok
+321;Zoë Fitzgerald    ;2026-03-14   ;7005.65 ;USD  ;follow up, then close            ;ok
+322;Renée Dubois      ;2026-03-14   ;6222.34 ;USD  ;split shipment
+second box pending;ok
+323;Søren Kierkegaard ;2026-03-14   ;6974.86 ; USD ;  padded on both sides           ;ok
+325;Ana Novák         ;2026-03-14   ;4908.90 ;USD  ;paid in full                     ;ok
+326;Jörg Müller       ;2026-03-14   ;7490.37 ;USD  ;"customer said ""send it twice""    ";ok
+327;Zoë Fitzgerald    ;2026-03-14   ;7062.33 ;USD  ;follow up, then close            ;ok
+328;Renée Dubois      ;2026-03-14   ;6479.79 ; USD ;split shipment
+second box pending;ok
+329;SÃ¸ren Kierkegaard;2026-03-14   ;1762.65 ;USD  ;  padded on both sides           ;ok
+330;Chloé Martin      ;2026-03-14   ;4919.97 ;USD  ;;ok
+331;Ana Novák         ;2026-03-14   ;7469.70 ;USD  ;paid in full                     ;ok
+332;Jörg Müller       ;2026-03-14   ;6281.47 ;USD  ;"customer said ""send it twice""    ";
+333;Zoë Fitzgerald    ;2026-03-14   ;7806.44 ; USD ;follow up, then close            ;ok
+334;Renée Dubois      ;2026-03-14   ;1220.57 ;USD  ;split shipment
+second box pending;ok
+335;Søren Kierkegaard ;2026-03-14   ;5689.63 ;USD  ;  padded on both sides           ;ok
+337;Ana Novák         ;2026-03-14   ;3836.36 ;USD  ;paid in full                     ;ok
+338;JÃ¶rg MÃ¼ller     ;2026-03-14   ;3022.38 ; USD ;"customer said ""send it twice""    ";ok
+339;Zoë Fitzgerald    ;2026-03-14   ;3366.23 ;USD  ;follow up, then close            ;ok
+340;Renée Dubois      ;2026-03-14   ;9045.19 ;USD  ;split shipment
+second box pending;
+341;Søren Kierkegaard ;2026-03-14   ;4946.30 ;USD  ;  padded on both sides           ;ok
+342;Chloé Martin      ;2026-03-14   ;4267.71 ;USD  ;;ok
+343;Ana Novák         ;2026-03-14   ;9465.40 ; USD ;paid in full                     ;ok
+344;Jörg Müller       ;2026-03-14   ;7873.52 ;USD  ;"customer said ""send it twice""    ";ok
+345;Zoë Fitzgerald    ;2026-03-14   ;2090.03 ;USD  ;follow up, then close            ;ok
+346;Renée Dubois      ;2026-03-14   ;7730.22 ;USD  ;split shipment
+second box pending;ok
+347;SÃ¸ren Kierkegaard;2026-03-14   ;5812.75 ;USD  ;  padded on both sides           ;ok
+349;Ana Novák         ;2026-03-14   ;4409.46 ;USD  ;paid in full                     ;
+350;Jörg Müller       ;2026-03-14   ;4545.17 ;USD  ;"customer said ""send it twice""    ";ok
+351;Zoë Fitzgerald    ;2026-03-14   ;7453.17 ;USD  ;follow up, then close            ;ok
+352;Renée Dubois      ;2026-03-14   ;7654.99 ;USD  ;split shipment
+second box pending;ok
+353;Søren Kierkegaard ;2026-03-14   ;6700.65 ; USD ;  padded on both sides           ;ok
+354;Chloé Martin      ;2026-03-14   ;7786.27 ;USD  ;;ok
+355;Ana Novák         ;2026-03-14   ;9775.68 ;USD  ;paid in full                     ;ok
+356;JÃ¶rg MÃ¼ller     ;2026-03-14   ;3299.66 ;USD  ;"customer said ""send it twice""    ";
+357;Zoë Fitzgerald    ;2026-03-14   ;1538.07 ;USD  ;follow up, then close            ;ok
+358;Renée Dubois      ;2026-03-14   ;9635.64 ; USD ;split shipment
+second box pending;ok
+359;Søren Kierkegaard ;2026-03-14   ;6404.98 ;USD  ;  padded on both sides           ;ok
+361;Ana Novák         ;2026-03-14   ;4132.07 ;USD  ;paid in full                     ;ok
+362;Jörg Müller       ;2026-03-14   ;1750.28 ;USD  ;"customer said ""send it twice""    ";ok
+363;Zoë Fitzgerald    ;2026-03-14   ;4556.81 ; USD ;follow up, then close            ;ok
+364;Renée Dubois      ;2026-03-14   ;3720.63 ;USD  ;split shipment
+second box pending;
+365;SÃ¸ren Kierkegaard;2026-03-14   ;4801.87 ;USD  ;  padded on both sides           ;ok
+366;Chloé Martin      ;2026-03-14   ;1431.39 ;USD  ;;
+367;Ana Novák         ;2026-03-14   ;7348.91 ;USD  ;paid in full                     ;ok
+368;Jörg Müller       ;2026-03-14   ;6482.53 ; USD ;"customer said ""send it twice""    ";ok
+369;Zoë Fitzgerald    ;2026-03-14   ;8539.22 ;USD  ;follow up, then close            ;ok
+370;Renée Dubois      ;2026-03-14   ;3547.18 ;USD  ;split shipment
+second box pending;ok
+371;Søren Kierkegaard ;2026-03-14   ;2061.56 ;USD  ;  padded on both sides           ;ok
+373;Ana Novák         ;2026-03-14   ;9884.00 ; USD ;paid in full                     ;ok
+374;JÃ¶rg MÃ¼ller     ;2026-03-14   ;7129.41 ;USD  ;"customer said ""send it twice""    ";ok
+375;Zoë Fitzgerald    ;2026-03-14   ;1035.75 ;USD  ;follow up, then close            ;ok
+376;Renée Dubois      ;2026-03-14   ;3370.46 ;USD  ;split shipment
+second box pending;ok
+377;Søren Kierkegaard ;2026-03-14   ;5132.73 ;USD  ;  padded on both sides           ;ok
+378;Chloé Martin      ;2026-03-14   ;8573.02 ; USD ;;ok
+379;Ana Novák         ;2026-03-14   ;2022.85 ;USD  ;paid in full                     ;ok
+380;Jörg Müller       ;2026-03-14   ;4759.07 ;USD  ;"customer said ""send it twice""    ";
+381;Zoë Fitzgerald    ;2026-03-14   ;6270.49 ;USD  ;follow up, then close            ;ok
+382;Renée Dubois      ;2026-03-14   ;7649.69 ;USD  ;split shipment
+second box pending;ok
+383;SÃ¸ren Kierkegaard;2026-03-14   ;6367.85 ; USD ;  padded on both sides           ;
+385;Ana Novák         ;2026-03-14   ;7068.99 ;USD  ;paid in full                     ;ok
+386;Jörg Müller       ;2026-03-14   ;7876.91 ;USD  ;"customer said ""send it twice""    ";ok
+387;Zoë Fitzgerald    ;2026-03-14   ;9995.99 ;USD  ;follow up, then close            ;ok
+388;Renée Dubois      ;2026-03-14   ;6075.64 ; USD ;split shipment
+second box pending;
+389;Søren Kierkegaard ;2026-03-14   ;1352.10 ;USD  ;  padded on both sides           ;ok
+390;Chloé Martin      ;2026-03-14   ;5048.52 ;USD  ;;ok
+391;Ana Novák         ;2026-03-14   ;1518.47 ;USD  ;paid in full                     ;ok
+392;JÃ¶rg MÃ¼ller     ;2026-03-14   ;9068.73 ;USD  ;"customer said ""send it twice""    ";ok
+393;Zoë Fitzgerald    ;2026-03-14   ;2437.24 ; USD ;follow up, then close            ;ok
+394;Renée Dubois      ;2026-03-14   ;7479.42 ;USD  ;split shipment
+second box pending;ok
+395;Søren Kierkegaard ;2026-03-14   ;6969.80 ;USD  ;  padded on both sides           ;ok
+397;Ana Novák         ;2026-03-14   ;7562.87 ;USD  ;paid in full                     ;ok
+398;Jörg Müller       ;2026-03-14   ;7298.65 ; USD ;"customer said ""send it twice""    ";ok
+399;Zoë Fitzgerald    ;2026-03-14   ;4169.07 ;USD  ;follow up, then close            ;ok
+400;Renée Dubois      ;2026-03-14   ;1297.93 ;USD  ;split shipment
+second box pending;
+401;SÃ¸ren Kierkegaard;2026-03-14   ;3201.57 ;USD  ;  padded on both sides           ;ok
+402;Chloé Martin      ;2026-03-14   ;8164.91 ;USD  ;;ok
+403;Ana Novák         ;2026-03-14   ;9727.63 ; USD ;paid in full                     ;ok
+404;Jörg Müller       ;2026-03-14   ;4241.32 ;USD  ;"customer said ""send it twice""    ";
+405;Zoë Fitzgerald    ;2026-03-14   ;5285.31 ;USD  ;follow up, then close            ;ok
+406;Renée Dubois      ;2026-03-14   ;4128.51 ;USD  ;split shipment
+second box pending;ok
+407;Søren Kierkegaard ;2026-03-14   ;1662.83 ;USD  ;  padded on both sides           ;ok
+409;Ana Novák         ;2026-03-14   ;6587.79 ;USD  ;paid in full                     ;ok
+410;JÃ¶rg MÃ¼ller     ;2026-03-14   ;6595.91 ;USD  ;"customer said ""send it twice""    ";ok
+411;Zoë Fitzgerald    ;2026-03-14   ;6339.75 ;USD  ;follow up, then close            ;ok
+412;Renée Dubois      ;2026-03-14   ;2273.93 ;USD  ;split shipment
+second box pending;
+413;Søren Kierkegaard ;2026-03-14   ;4369.95 ; USD ;  padded on both sides           ;ok
+414;Chloé Martin      ;2026-03-14   ;5829.04 ;USD  ;;ok
+415;Ana Novák         ;2026-03-14   ;9617.73 ;USD  ;paid in full                     ;ok
+416;Jörg Müller       ;2026-03-14   ;7611.97 ;USD  ;"customer said ""send it twice""    ";ok
+417;Zoë Fitzgerald    ;2026-03-14   ;3856.15 ;USD  ;follow up, then close            ;
+418;Renée Dubois      ;2026-03-14   ;9372.71 ; USD ;split shipment
+second box pending;ok
+419;SÃ¸ren Kierkegaard;2026-03-14   ;3524.46 ;USD  ;  padded on both sides           ;ok
+421;Ana Novák         ;2026-03-14   ;3176.68 ;USD  ;paid in full                     ;ok
+422;Jörg Müller       ;2026-03-14   ;4449.09 ;USD  ;"customer said ""send it twice""    ";ok
+423;Zoë Fitzgerald    ;2026-03-14   ;9345.53 ; USD ;follow up, then close            ;ok
+424;Renée Dubois      ;2026-03-14   ;3833.94 ;USD  ;split shipment
+second box pending;ok
+425;Søren Kierkegaard ;2026-03-14   ;4252.45 ;USD  ;  padded on both sides           ;ok
+426;Chloé Martin      ;2026-03-14   ;9952.98 ;USD  ;;ok
+427;Ana Novák         ;2026-03-14   ;4274.10 ;USD  ;paid in full                     ;ok
+428;JÃ¶rg MÃ¼ller     ;2026-03-14   ;7007.59 ; USD ;"customer said ""send it twice""    ";
+429;Zoë Fitzgerald    ;2026-03-14   ;3454.64 ;USD  ;follow up, then close            ;ok
+430;Renée Dubois      ;2026-03-14   ;5022.22 ;USD  ;split shipment
+second box pending;ok
+431;Søren Kierkegaard ;2026-03-14   ;6655.43 ;USD  ;  padded on both sides           ;ok
+433;Ana Novák         ;2026-03-14   ;3764.32 ; USD ;paid in full                     ;ok
+434;Jörg Müller       ;2026-03-14   ;9501.49 ;USD  ;"customer said ""send it twice""    ";
+435;Zoë Fitzgerald    ;2026-03-14   ;9750.08 ;USD  ;follow up, then close            ;ok
+436;Renée Dubois      ;2026-03-14   ;9415.10 ;USD  ;split shipment
+second box pending;
+437;SÃ¸ren Kierkegaard;2026-03-14   ;4605.39 ;USD  ;  padded on both sides           ;ok
+438;Chloé Martin      ;2026-03-14   ;4350.72 ; USD ;;ok
+439;Ana Novák         ;2026-03-14   ;6814.26 ;USD  ;paid in full                     ;ok
+440;Jörg Müller       ;2026-03-14   ;1764.07 ;USD  ;"customer said ""send it twice""    ";ok
+441;Zoë Fitzgerald    ;2026-03-14   ;5305.17 ;USD  ;follow up, then close            ;ok
+442;Renée Dubois      ;2026-03-14   ;8909.40 ;USD  ;split shipment
+second box pending;ok
+443;Søren Kierkegaard ;2026-03-14   ;8760.31 ; USD ;  padded on both sides           ;ok
+;;;;;;
+445;Ana Novák         ;2026-03-14   ;4996.46 ;USD  ;paid in full                     ;ok
+446;JÃ¶rg MÃ¼ller     ;2026-03-14   ;7499.63 ;USD  ;"customer said ""send it twice""    ";ok
+447;Zoë Fitzgerald    ;2026-03-14   ;3192.50 ;USD  ;follow up, then close            ;ok
+448;Renée Dubois      ;2026-03-14   ;1338.82 ; USD ;split shipment
+second box pending;ok
+449;Søren Kierkegaard ;2026-03-14   ;3680.63 ;USD  ;  padded on both sides           ;ok
+450;Chloé Martin      ;2026-03-14   ;6373.99 ;USD  ;;ok
+451;Ana Novák         ;2026-03-14   ;1024.72 ;USD  ;paid in full                     ;
+452;Jörg Müller       ;2026-03-14   ;3102.55 ;USD  ;"customer said ""send it twice""    ";
+453;Zoë Fitzgerald    ;2026-03-14   ;3302.98 ; USD ;follow up, then close            ;ok
+454;Renée Dubois      ;2026-03-14   ;6585.69 ;USD  ;split shipment
+second box pending;ok
+455;SÃ¸ren Kierkegaard;2026-03-14   ;2383.88 ;USD  ;  padded on both sides           ;ok
+457;Ana Novák         ;2026-03-14   ;2301.97 ;USD  ;paid in full                     ;ok
+458;Jörg Müller       ;2026-03-14   ;8947.94 ; USD ;"customer said ""send it twice""    ";ok
+459;Zoë Fitzgerald    ;2026-03-14   ;3777.69 ;USD  ;follow up, then close            ;ok
+460;Renée Dubois      ;2026-03-14   ;9132.67 ;USD  ;split shipment
+second box pending;
+461;Søren Kierkegaard ;2026-03-14   ;1493.56 ;USD  ;  padded on both sides           ;ok
+462;Chloé Martin      ;2026-03-14   ;7912.97 ;USD  ;;ok
+463;Ana Novák         ;2026-03-14   ;8425.64 ; USD ;paid in full                     ;ok
+464;JÃ¶rg MÃ¼ller     ;2026-03-14   ;4453.38 ;USD  ;"customer said ""send it twice""    ";ok
+465;Zoë Fitzgerald    ;2026-03-14   ;2045.52 ;USD  ;follow up, then close            ;ok
+466;Renée Dubois      ;2026-03-14   ;8524.69 ;USD  ;split shipment
+second box pending;ok
+467;Søren Kierkegaard ;2026-03-14   ;9280.11 ;USD  ;  padded on both sides           ;ok
+469;Ana Novák         ;2026-03-14   ;2283.12 ;USD  ;paid in full                     ;ok
+470;Jörg Müller       ;2026-03-14   ;4377.44 ;USD  ;"customer said ""send it twice""    ";ok
+471;Zoë Fitzgerald    ;2026-03-14   ;4540.16 ;USD  ;follow up, then close            ;ok
+472;Renée Dubois      ;2026-03-14   ;4293.37 ;USD  ;split shipment
+second box pending;ok
+473;SÃ¸ren Kierkegaard;2026-03-14   ;4920.57 ; USD ;  padded on both sides           ;ok
+474;Chloé Martin      ;2026-03-14   ;4528.23 ;USD  ;;ok
+475;Ana Novák         ;2026-03-14   ;1477.43 ;USD  ;paid in full                     ;ok
+476;Jörg Müller       ;2026-03-14   ;4493.39 ;USD  ;"customer said ""send it twice""    ";
+477;Zoë Fitzgerald    ;2026-03-14   ;2612.64 ;USD  ;follow up, then close            ;ok
+478;Renée Dubois      ;2026-03-14   ;6525.76 ; USD ;split shipment
+second box pending;ok
+479;Søren Kierkegaard ;2026-03-14   ;3211.70 ;USD  ;  padded on both sides           ;ok
+481;Ana Novák         ;2026-03-14   ;1171.69 ;USD  ;paid in full                     ;ok
+482;JÃ¶rg MÃ¼ller     ;2026-03-14   ;2823.21 ;USD  ;"customer said ""send it twice""    ";ok
+483;Zoë Fitzgerald    ;2026-03-14   ;8018.04 ; USD ;follow up, then close            ;ok
+484;Renée Dubois      ;2026-03-14   ;1906.41 ;USD  ;split shipment
+second box pending;
+485;Søren Kierkegaard ;2026-03-14   ;2051.28 ;USD  ;  padded on both sides           ;
+486;Chloé Martin      ;2026-03-14   ;5368.36 ;USD  ;;ok
+487;Ana Novák         ;2026-03-14   ;9189.12 ;USD  ;paid in full                     ;ok
+488;Jörg Müller       ;2026-03-14   ;4338.87 ; USD ;"customer said ""send it twice""    ";ok
+489;Zoë Fitzgerald    ;2026-03-14   ;6608.41 ;USD  ;follow up, then close            ;ok
+490;Renée Dubois      ;2026-03-14   ;4219.75 ;USD  ;split shipment
+second box pending;ok
+491;SÃ¸ren Kierkegaard;2026-03-14   ;9749.27 ;USD  ;  padded on both sides           ;ok
+493;Ana Novák         ;2026-03-14   ;7713.96 ; USD ;paid in full                     ;ok
+494;Jörg Müller       ;2026-03-14   ;9627.88 ;USD  ;"customer said ""send it twice""    ";ok
+495;Zoë Fitzgerald    ;2026-03-14   ;5256.42 ;USD  ;follow up, then close            ;ok
+496;Renée Dubois      ;2026-03-14   ;8311.94 ;USD  ;split shipment
+second box pending;ok
+497;Søren Kierkegaard ;2026-03-14   ;4858.75 ;USD  ;  padded on both sides           ;ok
+498;Chloé Martin      ;2026-03-14   ;6202.79 ; USD ;;ok
+499;Ana Novák         ;2026-03-14   ;9139.11 ;USD  ;paid in full                     ;ok
+500;JÃ¶rg MÃ¼ller     ;2026-03-14   ;4267.89 ;USD  ;"customer said ""send it twice""    ";
+501;Zoë Fitzgerald    ;2026-03-14   ;7460.06 ;USD  ;follow up, then close            ;ok
+502;Renée Dubois      ;2026-03-14   ;5883.94 ;USD  ;split shipment
+second box pending;
+503;Søren Kierkegaard ;2026-03-14   ;6917.68 ; USD ;  padded on both sides           ;ok
+505;Ana Novák         ;2026-03-14   ;9128.91 ;USD  ;paid in full                     ;ok
+506;Jörg Müller       ;2026-03-14   ;8601.71 ;USD  ;"customer said ""send it twice""    ";ok
+507;Zoë Fitzgerald    ;2026-03-14   ;2252.23 ;USD  ;follow up, then close            ;ok
+508;Renée Dubois      ;2026-03-14   ;9169.74 ; USD ;split shipment
+second box pending;
+509;SÃ¸ren Kierkegaard;2026-03-14   ;9921.90 ;USD  ;  padded on both sides           ;ok
+510;Chloé Martin      ;2026-03-14   ;1553.43 ;USD  ;;ok
+511;Ana Novák         ;2026-03-14   ;1028.74 ;USD  ;paid in full                     ;ok
+512;Jörg Müller       ;2026-03-14   ;5540.21 ;USD  ;"customer said ""send it twice""    ";ok
+513;Zoë Fitzgerald    ;2026-03-14   ;4187.25 ; USD ;follow up, then close            ;ok
+514;Renée Dubois      ;2026-03-14   ;8344.01 ;USD  ;split shipment
+second box pending;ok
+515;Søren Kierkegaard ;2026-03-14   ;6071.75 ;USD  ;  padded on both sides           ;ok
+517;Ana Novák         ;2026-03-14   ;3126.51 ;USD  ;paid in full                     ;ok
+518;JÃ¶rg MÃ¼ller     ;2026-03-14   ;1164.73 ; USD ;"customer said ""send it twice""    ";ok
+519;Zoë Fitzgerald    ;2026-03-14   ;4596.78 ;USD  ;follow up, then close            ;
+520;Renée Dubois      ;2026-03-14   ;5314.90 ;USD  ;split shipment
+second box pending;ok
+521;Søren Kierkegaard ;2026-03-14   ;3462.90 ;USD  ;  padded on both sides           ;ok
+522;Chloé Martin      ;2026-03-14   ;7258.69 ;USD  ;;ok
+523;Ana Novák         ;2026-03-14   ;4144.71 ; USD ;paid in full                     ;ok
+524;Jörg Müller       ;2026-03-14   ;8996.16 ;USD  ;"customer said ""send it twice""    ";
+525;Zoë Fitzgerald    ;2026-03-14   ;4234.61 ;USD  ;follow up, then close            ;ok
+526;Renée Dubois      ;2026-03-14   ;3749.13 ;USD  ;split shipment
+second box pending;ok
+527;SÃ¸ren Kierkegaard;2026-03-14   ;2047.33 ;USD  ;  padded on both sides           ;ok
+529;Ana Novák         ;2026-03-14   ;3732.56 ;USD  ;paid in full                     ;ok
+530;Jörg Müller       ;2026-03-14   ;6714.66 ;USD  ;"customer said ""send it twice""    ";ok
+531;Zoë Fitzgerald    ;2026-03-14   ;8867.44 ;USD  ;follow up, then close            ;ok
+532;Renée Dubois      ;2026-03-14   ;7090.81 ;USD  ;split shipment
+second box pending;
+533;Søren Kierkegaard ;2026-03-14   ;6133.06 ; USD ;  padded on both sides           ;ok
+534;Chloé Martin      ;2026-03-14   ;7715.20 ;USD  ;;ok
+535;Ana Novák         ;2026-03-14   ;4918.61 ;USD  ;paid in full                     ;ok
+536;JÃ¶rg MÃ¼ller     ;2026-03-14   ;7833.49 ;USD  ;"customer said ""send it twice""    ";
+537;Zoë Fitzgerald    ;2026-03-14   ;1237.95 ;USD  ;follow up, then close            ;ok
+538;Renée Dubois      ;2026-03-14   ;5903.91 ; USD ;split shipment
+second box pending;ok
+539;Søren Kierkegaard ;2026-03-14   ;2395.67 ;USD  ;  padded on both sides           ;ok
+541;Ana Novák         ;2026-03-14   ;4094.87 ;USD  ;paid in full                     ;ok
+542;Jörg Müller       ;2026-03-14   ;6175.77 ;USD  ;"customer said ""send it twice""    ";ok
+543;Zoë Fitzgerald    ;2026-03-14   ;3889.81 ; USD ;follow up, then close            ;ok
+544;Renée Dubois      ;2026-03-14   ;1898.87 ;USD  ;split shipment
+second box pending;ok
+545;SÃ¸ren Kierkegaard;2026-03-14   ;8648.00 ;USD  ;  padded on both sides           ;ok
+546;Chloé Martin      ;2026-03-14   ;8686.14 ;USD  ;;ok
+547;Ana Novák         ;2026-03-14   ;9046.19 ;USD  ;paid in full                     ;ok
+548;Jörg Müller       ;2026-03-14   ;7682.01 ; USD ;"customer said ""send it twice""    ";
+549;Zoë Fitzgerald    ;2026-03-14   ;4377.72 ;USD  ;follow up, then close            ;ok
+550;Renée Dubois      ;2026-03-14   ;4471.72 ;USD  ;split shipment
+second box pending;ok
+551;Søren Kierkegaard ;2026-03-14   ;3505.14 ;USD  ;  padded on both sides           ;ok
+553;Ana Novák         ;2026-03-14   ;3858.04 ; USD ;paid in full                     ;
+554;JÃ¶rg MÃ¼ller     ;2026-03-14   ;3185.30 ;USD  ;"customer said ""send it twice""    ";ok
+555;Zoë Fitzgerald    ;2026-03-14   ;8472.73 ;USD  ;follow up, then close            ;ok
+556;Renée Dubois      ;2026-03-14   ;6000.22 ;USD  ;split shipment
+second box pending;
+557;Søren Kierkegaard ;2026-03-14   ;5472.19 ;USD  ;  padded on both sides           ;ok
+558;Chloé Martin      ;2026-03-14   ;5020.24 ; USD ;;ok
+559;Ana Novák         ;2026-03-14   ;6174.64 ;USD  ;paid in full                     ;ok
+560;Jörg Müller       ;2026-03-14   ;2394.62 ;USD  ;"customer said ""send it twice""    ";ok
+561;Zoë Fitzgerald    ;2026-03-14   ;3787.97 ;USD  ;follow up, then close            ;ok
+562;Renée Dubois      ;2026-03-14   ;8022.04 ;USD  ;split shipment
+second box pending;ok
+563;SÃ¸ren Kierkegaard;2026-03-14   ;5671.86 ; USD ;  padded on both sides           ;ok
+565;Ana Novák         ;2026-03-14   ;2497.07 ;USD  ;paid in full                     ;ok
+566;Jörg Müller       ;2026-03-14   ;1315.10 ;USD  ;"customer said ""send it twice""    ";ok
+567;Zoë Fitzgerald    ;2026-03-14   ;2366.87 ;USD  ;follow up, then close            ;ok
+568;Renée Dubois      ;2026-03-14   ;2641.06 ; USD ;split shipment
+second box pending;ok
+569;Søren Kierkegaard ;2026-03-14   ;9509.77 ;USD  ;  padded on both sides           ;ok
+570;Chloé Martin      ;2026-03-14   ;2101.62 ;USD  ;;
+571;Ana Novák         ;2026-03-14   ;6668.27 ;USD  ;paid in full                     ;ok
+572;JÃ¶rg MÃ¼ller     ;2026-03-14   ;8925.39 ;USD  ;"customer said ""send it twice""    ";
+573;Zoë Fitzgerald    ;2026-03-14   ;8187.00 ; USD ;follow up, then close            ;ok
+574;Renée Dubois      ;2026-03-14   ;3477.89 ;USD  ;split shipment
+second box pending;ok
+575;Søren Kierkegaard ;2026-03-14   ;9391.76 ;USD  ;  padded on both sides           ;ok
+577;Ana Novák         ;2026-03-14   ;2017.62 ;USD  ;paid in full                     ;ok
+578;Jörg Müller       ;2026-03-14   ;5131.45 ; USD ;"customer said ""send it twice""    ";ok
+579;Zoë Fitzgerald    ;2026-03-14   ;9439.80 ;USD  ;follow up, then close            ;ok
+580;Renée Dubois      ;2026-03-14   ;8969.17 ;USD  ;split shipment
+second box pending;
+581;SÃ¸ren Kierkegaard;2026-03-14   ;2151.18 ;USD  ;  padded on both sides           ;ok
+582;Chloé Martin      ;2026-03-14   ;5028.93 ;USD  ;;ok
+583;Ana Novák         ;2026-03-14   ;3016.31 ; USD ;paid in full                     ;ok
+584;Jörg Müller       ;2026-03-14   ;3867.02 ;USD  ;"customer said ""send it twice""    ";ok
+585;Zoë Fitzgerald    ;2026-03-14   ;4934.02 ;USD  ;follow up, then close            ;ok
+586;Renée Dubois      ;2026-03-14   ;9896.19 ;USD  ;split shipment
+second box pending;ok
+587;Søren Kierkegaard ;2026-03-14   ;3331.80 ;USD  ;  padded on both sides           ;
+589;Ana Novák         ;2026-03-14   ;1359.91 ;USD  ;paid in full                     ;ok
+590;JÃ¶rg MÃ¼ller     ;2026-03-14   ;8157.94 ;USD  ;"customer said ""send it twice""    ";ok
+591;Zoë Fitzgerald    ;2026-03-14   ;6037.54 ;USD  ;follow up, then close            ;ok
+592;Renée Dubois      ;2026-03-14   ;4272.21 ;USD  ;split shipment
+second box pending;ok
+593;Søren Kierkegaard ;2026-03-14   ;8261.44 ; USD ;  padded on both sides           ;ok
+594;Chloé Martin      ;2026-03-14   ;8473.56 ;USD  ;;ok
+595;Ana Novák         ;2026-03-14   ;4372.81 ;USD  ;paid in full                     ;ok
+596;Jörg Müller       ;2026-03-14   ;6590.84 ;USD  ;"customer said ""send it twice""    ";
+597;Zoë Fitzgerald    ;2026-03-14   ;4986.91 ;USD  ;follow up, then close            ;ok
+598;Renée Dubois      ;2026-03-14   ;5574.03 ; USD ;split shipment
+second box pending;ok
+599;SÃ¸ren Kierkegaard;2026-03-14   ;9456.86 ;USD  ;  padded on both sides           ;ok
+601;Ana Novák         ;2026-03-14   ;2313.30 ;USD  ;paid in full                     ;ok
+602;Jörg Müller       ;2026-03-14   ;3490.37 ;USD  ;"customer said ""send it twice""    ";ok
+603;Zoë Fitzgerald    ;2026-03-14   ;2928.37 ; USD ;follow up, then close            ;ok
+604;Renée Dubois      ;2026-03-14   ;2595.82 ;USD  ;split shipment
+second box pending;
+605;Søren Kierkegaard ;2026-03-14   ;5615.90 ;USD  ;  padded on both sides           ;ok
+606;Chloé Martin      ;2026-03-14   ;7248.73 ;USD  ;;ok
+607;Ana Novák         ;2026-03-14   ;7772.39 ;USD  ;paid in full                     ;ok
+608;JÃ¶rg MÃ¼ller     ;2026-03-14   ;8541.54 ; USD ;"customer said ""send it twice""    ";ok
+609;Zoë Fitzgerald    ;2026-03-14   ;1788.44 ;USD  ;follow up, then close            ;ok
+610;Renée Dubois      ;2026-03-14   ;6058.25 ;USD  ;split shipment
+second box pending;ok
+611;Søren Kierkegaard ;2026-03-14   ;1150.77 ;USD  ;  padded on both sides           ;ok
+613;Ana Novák         ;2026-03-14   ;7672.17 ; USD ;paid in full                     ;ok
+614;Jörg Müller       ;2026-03-14   ;4900.29 ;USD  ;"customer said ""send it twice""    ";ok
+615;Zoë Fitzgerald    ;2026-03-14   ;2146.97 ;USD  ;follow up, then close            ;ok
+616;Renée Dubois      ;2026-03-14   ;9650.48 ;USD  ;split shipment
+second box pending;ok
+617;SÃ¸ren Kierkegaard;2026-03-14   ;4638.59 ;USD  ;  padded on both sides           ;ok
+618;Chloé Martin      ;2026-03-14   ;3891.27 ; USD ;;ok
+619;Ana Novák         ;2026-03-14   ;7770.23 ;USD  ;paid in full                     ;ok
+620;Jörg Müller       ;2026-03-14   ;7245.97 ;USD  ;"customer said ""send it twice""    ";
+621;Zoë Fitzgerald    ;2026-03-14   ;8695.48 ;USD  ;follow up, then close            ;
+622;Renée Dubois      ;2026-03-14   ;4853.53 ;USD  ;split shipment
+second box pending;ok
+623;Søren Kierkegaard ;2026-03-14   ;6218.29 ; USD ;  padded on both sides           ;ok
+625;Ana Novák         ;2026-03-14   ;9893.23 ;USD  ;paid in full                     ;ok
+626;JÃ¶rg MÃ¼ller     ;2026-03-14   ;3391.54 ;USD  ;"customer said ""send it twice""    ";ok
+627;Zoë Fitzgerald    ;2026-03-14   ;4798.84 ;USD  ;follow up, then close            ;ok
+628;Renée Dubois      ;2026-03-14   ;9406.85 ; USD ;split shipment
+second box pending;
+629;Søren Kierkegaard ;2026-03-14   ;3948.16 ;USD  ;  padded on both sides           ;ok
+630;Chloé Martin      ;2026-03-14   ;3731.41 ;USD  ;;ok
+631;Ana Novák         ;2026-03-14   ;6566.30 ;USD  ;paid in full                     ;ok
+632;Jörg Müller       ;2026-03-14   ;9749.34 ;USD  ;"customer said ""send it twice""    ";ok
+633;Zoë Fitzgerald    ;2026-03-14   ;7177.57 ; USD ;follow up, then close            ;ok
+634;Renée Dubois      ;2026-03-14   ;6142.10 ;USD  ;split shipment
+second box pending;ok
+635;SÃ¸ren Kierkegaard;2026-03-14   ;9639.95 ;USD  ;  padded on both sides           ;ok
+637;Ana Novák         ;2026-03-14   ;5392.91 ;USD  ;paid in full                     ;ok
+638;Jörg Müller       ;2026-03-14   ;6724.29 ; USD ;"customer said ""send it twice""    ";
+639;Zoë Fitzgerald    ;2026-03-14   ;3332.44 ;USD  ;follow up, then close            ;ok
+640;Renée Dubois      ;2026-03-14   ;6555.02 ;USD  ;split shipment
+second box pending;ok
+641;Søren Kierkegaard ;2026-03-14   ;7932.70 ;USD  ;  padded on both sides           ;ok
+642;Chloé Martin      ;2026-03-14   ;8995.20 ;USD  ;;ok
+643;Ana Novák         ;2026-03-14   ;1630.73 ; USD ;paid in full                     ;ok
+644;JÃ¶rg MÃ¼ller     ;2026-03-14   ;8336.20 ;USD  ;"customer said ""send it twice""    ";
+645;Zoë Fitzgerald    ;2026-03-14   ;3939.74 ;USD  ;follow up, then close            ;ok
+646;Renée Dubois      ;2026-03-14   ;7158.57 ;USD  ;split shipment
+second box pending;ok
+647;Søren Kierkegaard ;2026-03-14   ;4430.84 ;USD  ;  padded on both sides           ;ok
+649;Ana Novák         ;2026-03-14   ;8488.15 ;USD  ;paid in full                     ;ok
+650;Jörg Müller       ;2026-03-14   ;4237.02 ;USD  ;"customer said ""send it twice""    ";ok
+651;Zoë Fitzgerald    ;2026-03-14   ;9855.48 ;USD  ;follow up, then close            ;ok
+652;Renée Dubois      ;2026-03-14   ;6595.88 ;USD  ;split shipment
+second box pending;
+653;SÃ¸ren Kierkegaard;2026-03-14   ;5190.11 ; USD ;  padded on both sides           ;ok
+654;Chloé Martin      ;2026-03-14   ;7304.38 ;USD  ;;ok
+655;Ana Novák         ;2026-03-14   ;5259.92 ;USD  ;paid in full                     ;
+656;Jörg Müller       ;2026-03-14   ;1382.66 ;USD  ;"customer said ""send it twice""    ";ok
+657;Zoë Fitzgerald    ;2026-03-14   ;3935.66 ;USD  ;follow up, then close            ;ok
+658;Renée Dubois      ;2026-03-14   ;6488.94 ; USD ;split shipment
+second box pending;ok
+659;Søren Kierkegaard ;2026-03-14   ;3291.82 ;USD  ;  padded on both sides           ;ok
+661;Ana Novák         ;2026-03-14   ;4397.81 ;USD  ;paid in full                     ;ok
+662;JÃ¶rg MÃ¼ller     ;2026-03-14   ;5491.75 ;USD  ;"customer said ""send it twice""    ";ok
+663;Zoë Fitzgerald    ;2026-03-14   ;8719.73 ; USD ;follow up, then close            ;ok
+664;Renée Dubois      ;2026-03-14   ;1342.22 ;USD  ;split shipment
+second box pending;ok
+665;Søren Kierkegaard ;2026-03-14   ;7135.35 ;USD  ;  padded on both sides           ;ok
+666;Chloé Martin      ;2026-03-14   ;8849.95 ;USD  ;;ok
+667;Ana Novák         ;2026-03-14   ;6235.51 ;USD  ;paid in full                     ;ok
+668;Jörg Müller       ;2026-03-14   ;5758.74 ; USD ;"customer said ""send it twice""    ";
+669;Zoë Fitzgerald    ;2026-03-14   ;4841.09 ;USD  ;follow up, then close            ;ok
+670;Renée Dubois      ;2026-03-14   ;3326.11 ;USD  ;split shipment
+second box pending;ok
+671;SÃ¸ren Kierkegaard;2026-03-14   ;2521.50 ;USD  ;  padded on both sides           ;ok
+673;Ana Novák         ;2026-03-14   ;6871.57 ; USD ;paid in full                     ;ok
+674;Jörg Müller       ;2026-03-14   ;7988.11 ;USD  ;"customer said ""send it twice""    ";ok
+675;Zoë Fitzgerald    ;2026-03-14   ;4826.85 ;USD  ;follow up, then close            ;ok
+676;Renée Dubois      ;2026-03-14   ;7032.96 ;USD  ;split shipment
+second box pending;
+677;Søren Kierkegaard ;2026-03-14   ;8897.38 ;USD  ;  padded on both sides           ;ok
+678;Chloé Martin      ;2026-03-14   ;5477.29 ; USD ;;ok
+679;Ana Novák         ;2026-03-14   ;6022.17 ;USD  ;paid in full                     ;ok
+680;JÃ¶rg MÃ¼ller     ;2026-03-14   ;5978.23 ;USD  ;"customer said ""send it twice""    ";ok
+681;Zoë Fitzgerald    ;2026-03-14   ;6753.64 ;USD  ;follow up, then close            ;ok
+682;Renée Dubois      ;2026-03-14   ;3947.08 ;USD  ;split shipment
+second box pending;ok
+683;Søren Kierkegaard ;2026-03-14   ;7133.25 ; USD ;  padded on both sides           ;ok
+685;Ana Novák         ;2026-03-14   ;4999.74 ;USD  ;paid in full                     ;ok
+686;Jörg Müller       ;2026-03-14   ;2479.15 ;USD  ;"customer said ""send it twice""    ";ok
+687;Zoë Fitzgerald    ;2026-03-14   ;1490.14 ;USD  ;follow up, then close            ;ok
+688;Renée Dubois      ;2026-03-14   ;6100.72 ; USD ;split shipment
+second box pending;ok
+689;SÃ¸ren Kierkegaard;2026-03-14   ;1571.31 ;USD  ;  padded on both sides           ;
+690;Chloé Martin      ;2026-03-14   ;3957.56 ;USD  ;;ok
+691;Ana Novák         ;2026-03-14   ;7546.44 ;USD  ;paid in full                     ;ok
+692;Jörg Müller       ;2026-03-14   ;3190.28 ;USD  ;"customer said ""send it twice""    ";
+693;Zoë Fitzgerald    ;2026-03-14   ;9366.09 ; USD ;follow up, then close            ;ok
+694;Renée Dubois      ;2026-03-14   ;7869.75 ;USD  ;split shipment
+second box pending;ok
+695;Søren Kierkegaard ;2026-03-14   ;7342.40 ;USD  ;  padded on both sides           ;ok
+697;Ana Novák         ;2026-03-14   ;9112.54 ;USD  ;paid in full                     ;ok
+698;JÃ¶rg MÃ¼ller     ;2026-03-14   ;2465.71 ; USD ;"customer said ""send it twice""    ";ok
+699;Zoë Fitzgerald    ;2026-03-14   ;4620.66 ;USD  ;follow up, then close            ;ok
+700;Renée Dubois      ;2026-03-14   ;5647.21 ;USD  ;split shipment
+second box pending;
+701;Søren Kierkegaard ;2026-03-14   ;3345.86 ;USD  ;  padded on both sides           ;ok
+702;Chloé Martin      ;2026-03-14   ;7606.48 ;USD  ;;ok
+703;Ana Novák         ;2026-03-14   ;6924.46 ; USD ;paid in full                     ;ok
+704;Jörg Müller       ;2026-03-14   ;8728.91 ;USD  ;"customer said ""send it twice""    ";ok
+705;Zoë Fitzgerald    ;2026-03-14   ;5185.37 ;USD  ;follow up, then close            ;ok
+706;Renée Dubois      ;2026-03-14   ;1373.40 ;USD  ;split shipment
+second box pending;
+707;SÃ¸ren Kierkegaard;2026-03-14   ;5092.42 ;USD  ;  padded on both sides           ;ok
+709;Ana Novák         ;2026-03-14   ;7044.44 ;USD  ;paid in full                     ;ok
+710;Jörg Müller       ;2026-03-14   ;2023.05 ;USD  ;"customer said ""send it twice""    ";ok
+711;Zoë Fitzgerald    ;2026-03-14   ;1122.36 ;USD  ;follow up, then close            ;ok
+712;Renée Dubois      ;2026-03-14   ;5207.33 ;USD  ;split shipment
+second box pending;ok
+713;Søren Kierkegaard ;2026-03-14   ;4467.37 ; USD ;  padded on both sides           ;ok
+714;Chloé Martin      ;2026-03-14   ;2033.59 ;USD  ;;ok
+715;Ana Novák         ;2026-03-14   ;3579.15 ;USD  ;paid in full                     ;ok
+716;JÃ¶rg MÃ¼ller     ;2026-03-14   ;1091.07 ;USD  ;"customer said ""send it twice""    ";
+717;Zoë Fitzgerald    ;2026-03-14   ;9934.01 ;USD  ;follow up, then close            ;ok
+718;Renée Dubois      ;2026-03-14   ;8280.51 ; USD ;split shipment
+second box pending;ok
+719;Søren Kierkegaard ;2026-03-14   ;3047.59 ;USD  ;  padded on both sides           ;ok
+;;;;;;
+721;Ana Novák         ;2026-03-14   ;3828.41 ;USD  ;paid in full                     ;ok
+722;Jörg Müller       ;2026-03-14   ;6084.97 ;USD  ;"customer said ""send it twice""    ";ok
+723;Zoë Fitzgerald    ;2026-03-14   ;8854.53 ; USD ;follow up, then close            ;
+724;Renée Dubois      ;2026-03-14   ;5352.17 ;USD  ;split shipment
+second box pending;
+725;SÃ¸ren Kierkegaard;2026-03-14   ;5435.96 ;USD  ;  padded on both sides           ;ok
+726;Chloé Martin      ;2026-03-14   ;3658.37 ;USD  ;;ok
+727;Ana Novák         ;2026-03-14   ;8548.87 ;USD  ;paid in full                     ;ok
+728;Jörg Müller       ;2026-03-14   ;1521.06 ; USD ;"customer said ""send it twice""    ";ok
+729;Zoë Fitzgerald    ;2026-03-14   ;7830.85 ;USD  ;follow up, then close            ;ok
+730;Renée Dubois      ;2026-03-14   ;3235.59 ;USD  ;split shipment
+second box pending;ok
+731;Søren Kierkegaard ;2026-03-14   ;5674.53 ;USD  ;  padded on both sides           ;ok
+733;Ana Novák         ;2026-03-14   ;7194.16 ; USD ;paid in full                     ;ok
+734;JÃ¶rg MÃ¼ller     ;2026-03-14   ;1044.02 ;USD  ;"customer said ""send it twice""    ";ok
+735;Zoë Fitzgerald    ;2026-03-14   ;3355.47 ;USD  ;follow up, then close            ;ok
+736;Renée Dubois      ;2026-03-14   ;2131.68 ;USD  ;split shipment
+second box pending;ok
+737;Søren Kierkegaard ;2026-03-14   ;1344.15 ;USD  ;  padded on both sides           ;ok
+738;Chloé Martin      ;2026-03-14   ;5032.10 ; USD ;;ok
+739;Ana Novák         ;2026-03-14   ;4983.03 ;USD  ;paid in full                     ;ok
+740;Jörg Müller       ;2026-03-14   ;7979.90 ;USD  ;"customer said ""send it twice""    ";
+741;Zoë Fitzgerald    ;2026-03-14   ;1345.69 ;USD  ;follow up, then close            ;ok
+742;Renée Dubois      ;2026-03-14   ;7665.98 ;USD  ;split shipment
+second box pending;ok
+743;SÃ¸ren Kierkegaard;2026-03-14   ;1083.51 ; USD ;  padded on both sides           ;ok
+745;Ana Novák         ;2026-03-14   ;8898.07 ;USD  ;paid in full                     ;ok
+746;Jörg Müller       ;2026-03-14   ;3228.17 ;USD  ;"customer said ""send it twice""    ";ok
+747;Zoë Fitzgerald    ;2026-03-14   ;4833.77 ;USD  ;follow up, then close            ;ok
+748;Renée Dubois      ;2026-03-14   ;4934.62 ; USD ;split shipment
+second box pending;
+749;Søren Kierkegaard ;2026-03-14   ;8769.16 ;USD  ;  padded on both sides           ;ok
+750;Chloé Martin      ;2026-03-14   ;4178.90 ;USD  ;;ok
+751;Ana Novák         ;2026-03-14   ;6782.49 ;USD  ;paid in full                     ;ok
+752;JÃ¶rg MÃ¼ller     ;2026-03-14   ;3310.44 ;USD  ;"customer said ""send it twice""    ";ok
+753;Zoë Fitzgerald    ;2026-03-14   ;3749.78 ; USD ;follow up, then close            ;ok
+754;Renée Dubois      ;2026-03-14   ;7772.88 ;USD  ;split shipment
+second box pending;ok
+755;Søren Kierkegaard ;2026-03-14   ;6749.18 ;USD  ;  padded on both sides           ;ok
+757;Ana Novák         ;2026-03-14   ;3896.63 ;USD  ;paid in full                     ;
+758;Jörg Müller       ;2026-03-14   ;1596.07 ; USD ;"customer said ""send it twice""    ";ok
+759;Zoë Fitzgerald    ;2026-03-14   ;5318.82 ;USD  ;follow up, then close            ;ok
+760;Renée Dubois      ;2026-03-14   ;2396.87 ;USD  ;split shipment
+second box pending;ok
+761;SÃ¸ren Kierkegaard;2026-03-14   ;4245.87 ;USD  ;  padded on both sides           ;ok
+762;Chloé Martin      ;2026-03-14   ;9641.62 ;USD  ;;ok
+763;Ana Novák         ;2026-03-14   ;3638.06 ; USD ;paid in full                     ;ok
+764;Jörg Müller       ;2026-03-14   ;6740.36 ;USD  ;"customer said ""send it twice""    ";
+765;Zoë Fitzgerald    ;2026-03-14   ;9262.71 ;USD  ;follow up, then close            ;ok
+766;Renée Dubois      ;2026-03-14   ;6720.74 ;USD  ;split shipment
+second box pending;ok
+767;Søren Kierkegaard ;2026-03-14   ;5044.01 ;USD  ;  padded on both sides           ;ok
+769;Ana Novák         ;2026-03-14   ;1157.36 ;USD  ;paid in full                     ;ok
+770;JÃ¶rg MÃ¼ller     ;2026-03-14   ;5148.73 ;USD  ;"customer said ""send it twice""    ";ok
+771;Zoë Fitzgerald    ;2026-03-14   ;6011.41 ;USD  ;follow up, then close            ;ok
+772;Renée Dubois      ;2026-03-14   ;9292.88 ;USD  ;split shipment
+second box pending;
+773;Søren Kierkegaard ;2026-03-14   ;8724.57 ; USD ;  padded on both sides           ;ok
+774;Chloé Martin      ;2026-03-14   ;7352.08 ;USD  ;;
+775;Ana Novák         ;2026-03-14   ;7814.42 ;USD  ;paid in full                     ;ok
+776;Jörg Müller       ;2026-03-14   ;6627.56 ;USD  ;"customer said ""send it twice""    ";ok
+777;Zoë Fitzgerald    ;2026-03-14   ;4786.43 ;USD  ;follow up, then close            ;ok
+778;Renée Dubois      ;2026-03-14   ;5849.00 ; USD ;split shipment
+second box pending;ok
+779;SÃ¸ren Kierkegaard;2026-03-14   ;1020.01 ;USD  ;  padded on both sides           ;ok
+781;Ana Novák         ;2026-03-14   ;8300.96 ;USD  ;paid in full                     ;ok
+782;Jörg Müller       ;2026-03-14   ;2320.83 ;USD  ;"customer said ""send it twice""    ";ok
+783;Zoë Fitzgerald    ;2026-03-14   ;3344.51 ; USD ;follow up, then close            ;ok
+784;Renée Dubois      ;2026-03-14   ;6052.01 ;USD  ;split shipment
+second box pending;ok
+785;Søren Kierkegaard ;2026-03-14   ;2310.57 ;USD  ;  padded on both sides           ;ok
+786;Chloé Martin      ;2026-03-14   ;3282.76 ;USD  ;;ok
+787;Ana Novák         ;2026-03-14   ;5940.30 ;USD  ;paid in full                     ;ok
+788;JÃ¶rg MÃ¼ller     ;2026-03-14   ;3418.78 ; USD ;"customer said ""send it twice""    ";
+789;Zoë Fitzgerald    ;2026-03-14   ;7434.93 ;USD  ;follow up, then close            ;ok
+790;Renée Dubois      ;2026-03-14   ;5691.79 ;USD  ;split shipment
+second box pending;ok
+791;Søren Kierkegaard ;2026-03-14   ;8949.68 ;USD  ;  padded on both sides           ;
+793;Ana Novák         ;2026-03-14   ;2609.78 ; USD ;paid in full                     ;ok
+794;Jörg Müller       ;2026-03-14   ;8458.92 ;USD  ;"customer said ""send it twice""    ";ok
+795;Zoë Fitzgerald    ;2026-03-14   ;5118.21 ;USD  ;follow up, then close            ;ok
+796;Renée Dubois      ;2026-03-14   ;3216.11 ;USD  ;split shipment
+second box pending;
+797;SÃ¸ren Kierkegaard;2026-03-14   ;2832.80 ;USD  ;  padded on both sides           ;ok
+798;Chloé Martin      ;2026-03-14   ;3423.55 ; USD ;;ok
+799;Ana Novák         ;2026-03-14   ;2592.03 ;USD  ;paid in full                     ;ok
+800;Jörg Müller       ;2026-03-14   ;4000.62 ;USD  ;"customer said ""send it twice""    ";ok
+801;Zoë Fitzgerald    ;2026-03-14   ;2191.84 ;USD  ;follow up, then close            ;ok
+802;Renée Dubois      ;2026-03-14   ;3985.69 ;USD  ;split shipment
+second box pending;ok
+803;Søren Kierkegaard ;2026-03-14   ;3930.55 ; USD ;  padded on both sides           ;ok
+805;Ana Novák         ;2026-03-14   ;2221.03 ;USD  ;paid in full                     ;ok
+806;JÃ¶rg MÃ¼ller     ;2026-03-14   ;3703.59 ;USD  ;"customer said ""send it twice""    ";ok
+807;Zoë Fitzgerald    ;2026-03-14   ;3457.85 ;USD  ;follow up, then close            ;ok
+808;Renée Dubois      ;2026-03-14   ;5657.68 ; USD ;split shipment
+second box pending;
+809;Søren Kierkegaard ;2026-03-14   ;9534.43 ;USD  ;  padded on both sides           ;ok
+810;Chloé Martin      ;2026-03-14   ;3221.20 ;USD  ;;ok
+811;Ana Novák         ;2026-03-14   ;2903.39 ;USD  ;paid in full                     ;ok
+812;Jörg Müller       ;2026-03-14   ;5637.04 ;USD  ;"customer said ""send it twice""    ";
+813;Zoë Fitzgerald    ;2026-03-14   ;6470.33 ; USD ;follow up, then close            ;ok
+814;Renée Dubois      ;2026-03-14   ;4106.17 ;USD  ;split shipment
+second box pending;ok
+815;SÃ¸ren Kierkegaard;2026-03-14   ;9337.66 ;USD  ;  padded on both sides           ;ok
+817;Ana Novák         ;2026-03-14   ;3608.18 ;USD  ;paid in full                     ;ok
+818;Jörg Müller       ;2026-03-14   ;3672.28 ; USD ;"customer said ""send it twice""    ";ok
+819;Zoë Fitzgerald    ;2026-03-14   ;3960.03 ;USD  ;follow up, then close            ;ok
+820;Renée Dubois      ;2026-03-14   ;6274.77 ;USD  ;split shipment
+second box pending;
+821;Søren Kierkegaard ;2026-03-14   ;9484.01 ;USD  ;  padded on both sides           ;ok
+822;Chloé Martin      ;2026-03-14   ;7654.63 ;USD  ;;ok
+823;Ana Novák         ;2026-03-14   ;9300.93 ; USD ;paid in full                     ;ok
+824;JÃ¶rg MÃ¼ller     ;2026-03-14   ;2027.38 ;USD  ;"customer said ""send it twice""    ";ok
+825;Zoë Fitzgerald    ;2026-03-14   ;2492.22 ;USD  ;follow up, then close            ;
+826;Renée Dubois      ;2026-03-14   ;7453.56 ;USD  ;split shipment
+second box pending;ok
+827;Søren Kierkegaard ;2026-03-14   ;9308.81 ;USD  ;  padded on both sides           ;ok
+829;Ana Novák         ;2026-03-14   ;3598.53 ;USD  ;paid in full                     ;ok
+830;Jörg Müller       ;2026-03-14   ;5231.95 ;USD  ;"customer said ""send it twice""    ";ok
+831;Zoë Fitzgerald    ;2026-03-14   ;7729.49 ;USD  ;follow up, then close            ;ok
+832;Renée Dubois      ;2026-03-14   ;9933.79 ;USD  ;split shipment
+second box pending;ok
+833;SÃ¸ren Kierkegaard;2026-03-14   ;1747.10 ; USD ;  padded on both sides           ;ok
+834;Chloé Martin      ;2026-03-14   ;8438.92 ;USD  ;;ok
+835;Ana Novák         ;2026-03-14   ;5261.03 ;USD  ;paid in full                     ;ok
+836;Jörg Müller       ;2026-03-14   ;7947.70 ;USD  ;"customer said ""send it twice""    ";
+837;Zoë Fitzgerald    ;2026-03-14   ;2934.61 ;USD  ;follow up, then close            ;ok
+838;Renée Dubois      ;2026-03-14   ;4516.09 ; USD ;split shipment
+second box pending;ok
+839;Søren Kierkegaard ;2026-03-14   ;2057.82 ;USD  ;  padded on both sides           ;ok
+841;Ana Novák         ;2026-03-14   ;1299.96 ;USD  ;paid in full                     ;ok
+842;JÃ¶rg MÃ¼ller     ;2026-03-14   ;6853.61 ;USD  ;"customer said ""send it twice""    ";
+843;Zoë Fitzgerald    ;2026-03-14   ;4838.62 ; USD ;follow up, then close            ;ok
+844;Renée Dubois      ;2026-03-14   ;1243.87 ;USD  ;split shipment
+second box pending;
+845;Søren Kierkegaard ;2026-03-14   ;5660.67 ;USD  ;  padded on both sides           ;ok
+846;Chloé Martin      ;2026-03-14   ;1861.70 ;USD  ;;ok
+847;Ana Novák         ;2026-03-14   ;2003.65 ;USD  ;paid in full                     ;ok
+848;Jörg Müller       ;2026-03-14   ;4670.68 ; USD ;"customer said ""send it twice""    ";ok
+849;Zoë Fitzgerald    ;2026-03-14   ;3842.05 ;USD  ;follow up, then close            ;ok
+850;Renée Dubois      ;2026-03-14   ;8262.37 ;USD  ;split shipment
+second box pending;ok
+851;SÃ¸ren Kierkegaard;2026-03-14   ;8147.33 ;USD  ;  padded on both sides           ;ok
+853;Ana Novák         ;2026-03-14   ;8322.65 ; USD ;paid in full                     ;ok
+854;Jörg Müller       ;2026-03-14   ;6337.42 ;USD  ;"customer said ""send it twice""    ";ok
+855;Zoë Fitzgerald    ;2026-03-14   ;7466.11 ;USD  ;follow up, then close            ;ok
+856;Renée Dubois      ;2026-03-14   ;3817.59 ;USD  ;split shipment
+second box pending;ok
+857;Søren Kierkegaard ;2026-03-14   ;4885.44 ;USD  ;  padded on both sides           ;ok
+858;Chloé Martin      ;2026-03-14   ;8706.36 ; USD ;;ok
+859;Ana Novák         ;2026-03-14   ;6078.65 ;USD  ;paid in full                     ;
+860;JÃ¶rg MÃ¼ller     ;2026-03-14   ;1278.02 ;USD  ;"customer said ""send it twice""    ";
+861;Zoë Fitzgerald    ;2026-03-14   ;2768.35 ;USD  ;follow up, then close            ;ok
+862;Renée Dubois      ;2026-03-14   ;3444.48 ;USD  ;split shipment
+second box pending;ok
+863;Søren Kierkegaard ;2026-03-14   ;5692.82 ; USD ;  padded on both sides           ;ok
+865;Ana Novák         ;2026-03-14   ;3980.46 ;USD  ;paid in full                     ;ok
+866;Jörg Müller       ;2026-03-14   ;2982.65 ;USD  ;"customer said ""send it twice""    ";ok
+867;Zoë Fitzgerald    ;2026-03-14   ;5508.52 ;USD  ;follow up, then close            ;ok
+868;Renée Dubois      ;2026-03-14   ;8197.00 ; USD ;split shipment
+second box pending;
+869;SÃ¸ren Kierkegaard;2026-03-14   ;7144.38 ;USD  ;  padded on both sides           ;ok
+870;Chloé Martin      ;2026-03-14   ;9287.92 ;USD  ;;ok
+871;Ana Novák         ;2026-03-14   ;9479.46 ;USD  ;paid in full                     ;ok
+872;Jörg Müller       ;2026-03-14   ;2294.44 ;USD  ;"customer said ""send it twice""    ";ok
+873;Zoë Fitzgerald    ;2026-03-14   ;1350.55 ; USD ;follow up, then close            ;ok
+874;Renée Dubois      ;2026-03-14   ;8277.49 ;USD  ;split shipment
+second box pending;ok
+875;Søren Kierkegaard ;2026-03-14   ;8490.07 ;USD  ;  padded on both sides           ;ok
+877;Ana Novák         ;2026-03-14   ;9841.30 ;USD  ;paid in full                     ;ok
+878;JÃ¶rg MÃ¼ller     ;2026-03-14   ;8245.99 ; USD ;"customer said ""send it twice""    ";ok
+879;Zoë Fitzgerald    ;2026-03-14   ;3190.50 ;USD  ;follow up, then close            ;ok
+880;Renée Dubois      ;2026-03-14   ;2400.96 ;USD  ;split shipment
+second box pending;ok
+881;Søren Kierkegaard ;2026-03-14   ;4576.87 ;USD  ;  padded on both sides           ;ok
+882;Chloé Martin      ;2026-03-14   ;8510.04 ;USD  ;;ok
+883;Ana Novák         ;2026-03-14   ;9496.32 ; USD ;paid in full                     ;ok
+884;Jörg Müller       ;2026-03-14   ;4522.90 ;USD  ;"customer said ""send it twice""    ";
+885;Zoë Fitzgerald    ;2026-03-14   ;5202.17 ;USD  ;follow up, then close            ;ok
+886;Renée Dubois      ;2026-03-14   ;2914.60 ;USD  ;split shipment
+second box pending;ok
+887;SÃ¸ren Kierkegaard;2026-03-14   ;5230.04 ;USD  ;  padded on both sides           ;ok
+889;Ana Novák         ;2026-03-14   ;3266.18 ;USD  ;paid in full                     ;ok
+890;Jörg Müller       ;2026-03-14   ;1073.61 ;USD  ;"customer said ""send it twice""    ";ok
+891;Zoë Fitzgerald    ;2026-03-14   ;1033.44 ;USD  ;follow up, then close            ;ok
+892;Renée Dubois      ;2026-03-14   ;8414.88 ;USD  ;split shipment
+second box pending;
+893;Søren Kierkegaard ;2026-03-14   ;3205.78 ; USD ;  padded on both sides           ;
+894;Chloé Martin      ;2026-03-14   ;1352.90 ;USD  ;;ok
+895;Ana Novák         ;2026-03-14   ;4648.26 ;USD  ;paid in full                     ;ok
+896;JÃ¶rg MÃ¼ller     ;2026-03-14   ;8975.46 ;USD  ;"customer said ""send it twice""    ";ok
+897;Zoë Fitzgerald    ;2026-03-14   ;5579.63 ;USD  ;follow up, then close            ;ok
+898;Renée Dubois      ;2026-03-14   ;9145.24 ; USD ;split shipment
+second box pending;ok
+899;Søren Kierkegaard ;2026-03-14   ;6597.99 ;USD  ;  padded on both sides           ;ok
+901;Ana Novák         ;2026-03-14   ;6440.72 ;USD  ;paid in full                     ;ok
+902;Jörg Müller       ;2026-03-14   ;7247.57 ;USD  ;"customer said ""send it twice""    ";ok
+903;Zoë Fitzgerald    ;2026-03-14   ;2899.35 ; USD ;follow up, then close            ;ok
+904;Renée Dubois      ;2026-03-14   ;4503.96 ;USD  ;split shipment
+second box pending;ok
+905;SÃ¸ren Kierkegaard;2026-03-14   ;4254.76 ;USD  ;  padded on both sides           ;ok
+906;Chloé Martin      ;2026-03-14   ;2521.19 ;USD  ;;ok
+907;Ana Novák         ;2026-03-14   ;1240.66 ;USD  ;paid in full                     ;ok
+908;Jörg Müller       ;2026-03-14   ;8037.28 ; USD ;"customer said ""send it twice""    ";
+909;Zoë Fitzgerald    ;2026-03-14   ;6199.49 ;USD  ;follow up, then close            ;ok
+910;Renée Dubois      ;2026-03-14   ;3148.12 ;USD  ;split shipment
+second box pending;
+911;Søren Kierkegaard ;2026-03-14   ;1758.41 ;USD  ;  padded on both sides           ;ok
+913;Ana Novák         ;2026-03-14   ;9284.78 ; USD ;paid in full                     ;ok
+914;JÃ¶rg MÃ¼ller     ;2026-03-14   ;7707.72 ;USD  ;"customer said ""send it twice""    ";ok
+915;Zoë Fitzgerald    ;2026-03-14   ;4946.52 ;USD  ;follow up, then close            ;ok
+916;Renée Dubois      ;2026-03-14   ;6131.63 ;USD  ;split shipment
+second box pending;
+917;Søren Kierkegaard ;2026-03-14   ;4100.00 ;USD  ;  padded on both sides           ;ok
+918;Chloé Martin      ;2026-03-14   ;5642.73 ; USD ;;ok
+919;Ana Novák         ;2026-03-14   ;6158.12 ;USD  ;paid in full                     ;ok
+920;Jörg Müller       ;2026-03-14   ;1715.88 ;USD  ;"customer said ""send it twice""    ";ok
+921;Zoë Fitzgerald    ;2026-03-14   ;8816.86 ;USD  ;follow up, then close            ;ok
+922;Renée Dubois      ;2026-03-14   ;3048.87 ;USD  ;split shipment
+second box pending;ok
+923;SÃ¸ren Kierkegaard;2026-03-14   ;3881.15 ; USD ;  padded on both sides           ;ok
+925;Ana Novák         ;2026-03-14   ;6155.74 ;USD  ;paid in full                     ;ok
+926;Jörg Müller       ;2026-03-14   ;6398.45 ;USD  ;"customer said ""send it twice""    ";ok
+927;Zoë Fitzgerald    ;2026-03-14   ;1455.71 ;USD  ;follow up, then close            ;
+928;Renée Dubois      ;2026-03-14   ;3564.00 ; USD ;split shipment
+second box pending;ok
+929;Søren Kierkegaard ;2026-03-14   ;6185.70 ;USD  ;  padded on both sides           ;ok
+930;Chloé Martin      ;2026-03-14   ;4169.02 ;USD  ;;ok
+931;Ana Novák         ;2026-03-14   ;7744.86 ;USD  ;paid in full                     ;ok
+932;JÃ¶rg MÃ¼ller     ;2026-03-14   ;7289.08 ;USD  ;"customer said ""send it twice""    ";
+933;Zoë Fitzgerald    ;2026-03-14   ;5030.92 ; USD ;follow up, then close            ;ok
+934;Renée Dubois      ;2026-03-14   ;3588.14 ;USD  ;split shipment
+second box pending;ok
+935;Søren Kierkegaard ;2026-03-14   ;3581.19 ;USD  ;  padded on both sides           ;ok
+937;Ana Novák         ;2026-03-14   ;6904.92 ;USD  ;paid in full                     ;ok
+938;Jörg Müller       ;2026-03-14   ;4705.19 ; USD ;"customer said ""send it twice""    ";ok
+939;Zoë Fitzgerald    ;2026-03-14   ;1841.20 ;USD  ;follow up, then close            ;ok
+940;Renée Dubois      ;2026-03-14   ;4702.04 ;USD  ;split shipment
+second box pending;
+941;SÃ¸ren Kierkegaard;2026-03-14   ;2981.05 ;USD  ;  padded on both sides           ;ok
+942;Chloé Martin      ;2026-03-14   ;9421.74 ;USD  ;;ok
+943;Ana Novák         ;2026-03-14   ;4852.06 ; USD ;paid in full                     ;ok
+944;Jörg Müller       ;2026-03-14   ;6187.98 ;USD  ;"customer said ""send it twice""    ";
+945;Zoë Fitzgerald    ;2026-03-14   ;2929.61 ;USD  ;follow up, then close            ;ok
+946;Renée Dubois      ;2026-03-14   ;9559.97 ;USD  ;split shipment
+second box pending;ok
+947;Søren Kierkegaard ;2026-03-14   ;2183.26 ;USD  ;  padded on both sides           ;ok
+949;Ana Novák         ;2026-03-14   ;2325.32 ;USD  ;paid in full                     ;ok
+950;JÃ¶rg MÃ¼ller     ;2026-03-14   ;9873.62 ;USD  ;"customer said ""send it twice""    ";ok
+951;Zoë Fitzgerald    ;2026-03-14   ;9968.37 ;USD  ;follow up, then close            ;ok
+952;Renée Dubois      ;2026-03-14   ;8783.10 ;USD  ;split shipment
+second box pending;ok
+953;Søren Kierkegaard ;2026-03-14   ;9290.03 ; USD ;  padded on both sides           ;ok
+954;Chloé Martin      ;2026-03-14   ;7103.39 ;USD  ;;ok
+955;Ana Novák         ;2026-03-14   ;8199.93 ;USD  ;paid in full                     ;ok
+956;Jörg Müller       ;2026-03-14   ;3670.66 ;USD  ;"customer said ""send it twice""    ";
+957;Zoë Fitzgerald    ;2026-03-14   ;8957.42 ;USD  ;follow up, then close            ;ok
+958;Renée Dubois      ;2026-03-14   ;4750.96 ; USD ;split shipment
+second box pending;ok
+959;SÃ¸ren Kierkegaard;2026-03-14   ;2732.40 ;USD  ;  padded on both sides           ;ok
+961;Ana Novák         ;2026-03-14   ;6744.95 ;USD  ;paid in full                     ;
+962;Jörg Müller       ;2026-03-14   ;4401.62 ;USD  ;"customer said ""send it twice""    ";ok
+963;Zoë Fitzgerald    ;2026-03-14   ;6649.74 ; USD ;follow up, then close            ;ok
+964;Renée Dubois      ;2026-03-14   ;1893.40 ;USD  ;split shipment
+second box pending;
+965;Søren Kierkegaard ;2026-03-14   ;4504.97 ;USD  ;  padded on both sides           ;ok
+966;Chloé Martin      ;2026-03-14   ;2679.78 ;USD  ;;ok
+967;Ana Novák         ;2026-03-14   ;7841.12 ;USD  ;paid in full                     ;ok
+968;JÃ¶rg MÃ¼ller     ;2026-03-14   ;2104.96 ; USD ;"customer said ""send it twice""    ";ok
+969;Zoë Fitzgerald    ;2026-03-14   ;7988.87 ;USD  ;follow up, then close            ;ok
+970;Renée Dubois      ;2026-03-14   ;6620.46 ;USD  ;split shipment
+second box pending;ok
+971;Søren Kierkegaard ;2026-03-14   ;4141.62 ;USD  ;  padded on both sides           ;ok
+973;Ana Novák         ;2026-03-14   ;1200.35 ; USD ;paid in full                     ;ok
+974;Jörg Müller       ;2026-03-14   ;1237.89 ;USD  ;"customer said ""send it twice""    ";ok
+975;Zoë Fitzgerald    ;2026-03-14   ;6577.23 ;USD  ;follow up, then close            ;ok
+976;Renée Dubois      ;2026-03-14   ;1965.01 ;USD  ;split shipment
+second box pending;ok
+977;SÃ¸ren Kierkegaard;2026-03-14   ;4520.13 ;USD  ;  padded on both sides           ;ok
+978;Chloé Martin      ;2026-03-14   ;7766.99 ; USD ;;
+979;Ana Novák         ;2026-03-14   ;8322.36 ;USD  ;paid in full                     ;ok
+980;Jörg Müller       ;2026-03-14   ;1187.69 ;USD  ;"customer said ""send it twice""    ";
+981;Zoë Fitzgerald    ;2026-03-14   ;2582.33 ;USD  ;follow up, then close            ;ok
+982;Renée Dubois      ;2026-03-14   ;6980.84 ;USD  ;split shipment
+second box pending;ok
+983;Søren Kierkegaard ;2026-03-14   ;1674.59 ; USD ;  padded on both sides           ;ok
+985;Ana Novák         ;2026-03-14   ;1618.46 ;USD  ;paid in full                     ;ok
+986;JÃ¶rg MÃ¼ller     ;2026-03-14   ;4663.46 ;USD  ;"customer said ""send it twice""    ";ok
+987;Zoë Fitzgerald    ;2026-03-14   ;2954.72 ;USD  ;follow up, then close            ;ok
+988;Renée Dubois      ;2026-03-14   ;8541.11 ; USD ;split shipment
+second box pending;
+989;Søren Kierkegaard ;2026-03-14   ;5942.60 ;USD  ;  padded on both sides           ;ok
+990;Chloé Martin      ;2026-03-14   ;9327.04 ;USD  ;;ok
+991;Ana Novák         ;2026-03-14   ;6047.76 ;USD  ;paid in full                     ;ok
+992;Jörg Müller       ;2026-03-14   ;4771.25 ;USD  ;"customer said ""send it twice""    ";ok
+993;Zoë Fitzgerald    ;2026-03-14   ;4617.28 ; USD ;follow up, then close            ;ok
+994;Renée Dubois      ;2026-03-14   ;3403.39 ;USD  ;split shipment
+second box pending;ok
+995;SÃ¸ren Kierkegaard;2026-03-14   ;4202.68 ;USD  ;  padded on both sides           ;
+;;;;;;
+997;Ana Novák         ;2026-03-14   ;7312.61 ;USD  ;paid in full                     ;ok
+998;Jörg Müller       ;2026-03-14   ;4972.07 ; USD ;"customer said ""send it twice""    ";ok
+999;Zoë Fitzgerald    ;2026-03-14   ;1795.50 ;USD  ;follow up, then close            ;ok
+1000;Renée Dubois      ;2026-03-14   ;7578.04 ;USD  ;split shipment
+second box pending;ok
