@@ -45,8 +45,8 @@
     - [3.3 Problemas en el archivo CSV (.csv)](#33-problemas-en-el-archivo-csv-csv)
   - [4. Transformaciones aplicadas](#4-transformaciones-aplicadas)
     - [4.1 Transformaciones sobre el Excel](#41-transformaciones-sobre-el-excel)
-      - [4.1.1 _\[Transformación 1\]_](#411-transformación-1)
-      - [4.1.2 _\[Transformación 2\]_](#412-transformación-2)
+      - [4.1.1 Corrección de nombres y apellidos](#411-corrección-de-nombres-y-apellidos)
+      - [4.1.2 Validación de fechas](#412-validación-de-fechas)
     - [4.2 Transformaciones sobre el JSON](#42-transformaciones-sobre-el-json)
       - [4.2.1 Mapeo de valores](#421-mapeo-de-valores)
       - [4.2.2 Filtrar filas](#422-filtrar-filas)
@@ -80,8 +80,11 @@
 
 | N.º | Título | Sección |
 |-----|--------|---------|
-| Figura 1 | Configuración de _[transformación 1]_ en Pentaho (Excel) | [4.1.1](#411-transformación-1) |
-| Figura 2 | Configuración de _[transformación 2]_ en Pentaho (Excel) | [4.1.2](#412-transformación-2) |
+| Figura 1a | Configuración de String operations (limpieza de nombres y apellidos) | [4.1.1](#411-corrección-de-nombres-y-apellidos) |
+| Figura 1b | Configuración de Replace in string (corrección de caracteres) | [4.1.1](#411-corrección-de-nombres-y-apellidos) |
+| Figura 2a | Configuración de Replace in string (normalización de fechas) | [4.1.2](#412-validación-de-fechas) |
+| Figura 2b | Configuración de Select values (conversión a tipo fecha) | [4.1.2](#412-validación-de-fechas) |
+| Figura 2c | Configuración de Filter rows (validación de fechas) | [4.1.2](#412-validación-de-fechas) |
 | Figura 3 | Configuración de Mapeo de valores en Pentaho | [4.2.1](#421-mapeo-de-valores) |
 | Figura 4 | Configuración de Filtrar Filas en Pentaho | [4.2.2](#422-filtrar-filas) |
 | Figura 5 | Configuración de _[transformación 1]_ en Pentaho (CSV) | [4.3.1](#431-transformación-1) |
@@ -125,7 +128,7 @@ _[Completar]_
 
 | Fuente | Tipo / Formato | Origen | Descripción | N.º de registros | N.º de campos |
 |--------|----------------|--------|-------------|------------------|---------------|
-| _[nombre_archivo.xls]_ | Excel | _[ ]_ | _[ ]_ | _[ ]_ | _[ ]_ |
+| Estudiantes.xls | Excel (.xls) | Archivo provisto en el aula virtual de la Escuela Politécnica Nacional| Registros de estudiantes con identificador, nombres, apellidos, cédula, modalidad, nivel, fecha de admisión, estado actual y fecha de estado. | 99 | 9 |
 | h9gi-nx95.json | JSON | [NYC Motor Vehicle Collisions Dataset](https://data.cityofnewyork.us/resource/h9gi-nx95.json?select=collision_id,crash_date,borough,vehicle_type_code1,contributing_factor_vehicle_1,number_of_persons_injured&where=borough%20is%20not%20null&limit=2000&offset=300000) | Registros de choques de vehículos en la ciudad de Nueva York, obtenidos de la API de NYC Open Data. Cada registro tiene el identificador del choque, la fecha, el distrito (borough), el tipo de vehículo, el factor que contribuyó al choque y el número de personas heridas. | 2000 | 6 |
 | messy-data-pack-1000.csv | CSV | [ExploreMyData](https://exploremydata.com/datasets/messy-data-pack) | Datos sucios de ejemplo para probar transformaciones. | 1000 | 7 |
 
@@ -142,8 +145,10 @@ _[Completar]_
 
 | Campo | Descripción del problema |
 |-------|--------------------------|
-| _[ ]_ | _[ ]_ |
-| _[ ]_ | _[ ]_ |
+| NOMBRES | 15 registros tienen caracteres dañados por la codificación: la é aparece como `\|\|` (`Jos\|\|`, `In\|\|s`) y otras vocales acentuadas como `�` (`Ram�n`, `Mar�a`, `M�nica`). Además, 8 registros tienen espacios sobrantes (`Cecilia `, `Segundo  `) y algunos tienen minúsculas incorrectas (`Maria margarita`, `del transito`). |
+| APELLIDOS | 16 registros tienen caracteres dañados: la ñ aparece como `~` (`Mu~oz`, `Pe~a`) y las vocales acentuadas como `�` (`D�az`, `L�pez`, `Ch�vez`). También hay 12 registros con apellidos en minúscula (`fierro`, `salazar`, `benavente`), 2 con espacios al final y 1 con doble espacio interno (`Biava  Gonzalez`). |
+| FECHA ADMISION | Se lee como texto y no como fecha. 98 registros usan `yyyy/MM/dd HH:mm:ss.SSS`, pero el registro L000101 usa otro formato (`01/01/2010 0:00`). |
+| FECHA ESTADO | Se lee como texto. El registro L000101 tiene un carácter basura al inicio y otro formato (`�12/06/2014`). No se había verificado que la fecha de estado fuera posterior a la de admisión. |
 
 ### 3.2 Problemas en el archivo JSON (.json)
 
@@ -175,15 +180,47 @@ _[Completar]_
 
 ### 4.1 Transformaciones sobre el Excel
 
-#### 4.1.1 _[Transformación 1]_
-_[Descripción breve de lo que hace la transformación.]_
-![Configuración del paso en Pentaho](img/EXCELtrans1.png)
-**Figura 1.** _Configuración de [transformación 1] en Pentaho._
+#### 4.1.1 Corrección de nombres y apellidos
+Corrige los caracteres dañados por la codificación, elimina espacios sobrantes y unifica el uso de mayúsculas en los campos `NOMBRES` y `APELLIDOS`. Se aplicó en dos pasos, siempre sobrescribiendo los mismos campos:
 
-#### 4.1.2 _[Transformación 2]_
-_[Descripción breve de lo que hace la transformación.]_
-![Configuración del paso en Pentaho](img/EXCELtrans2.png)
-**Figura 2.** _Configuración de [transformación 2] en Pentaho._
+1. **String operations** (carpeta Transform), paso `LIMPIAR NOMBRES`: elimina los espacios al inicio y al final (*Trim type = both*) y convierte la primera letra de cada palabra en mayúscula (*InitCap = Y*). Así `fierro Mu~oz` pasa a `Fierro Mu~oz`. Ver Figura 1a.
+2. **Replace in string** (carpeta Transform), paso `CORREGIR NOMBRES`, con la opción *Use RegEx* activada. Ver Figura 1b. Se aplican reemplazos que:
+   - convierten `||` en `é` y `~` en `ñ`;
+   - restituyen las palabras con `�` (Ramón, María, Mónica, Julián, Tránsito, Alarcón, Díaz, Marín, López, Terán, Chávez, Román), usando `[^ -~]` para reconocer el carácter dañado sin teclearlo;
+   - devuelven a minúscula las partículas `del`, `de` y `las`, que InitCap había puesto en mayúscula;
+   - reducen a un solo espacio los dobles espacios internos.
+
+| Valor original | Resultado |
+|----------------|-----------|
+| `Jos\|\| Luis` | `José Luis` |
+| `Mar�a Ang\|\|lica` | `María Angélica` |
+| `fierro Mu~oz` | `Fierro Muñoz` |
+| `Biava  Gonzalez` | `Biava Gonzalez` |
+| `Celia del transito` | `Celia del Tránsito` |
+
+![Configuración de String operations en Pentaho](img/EXCELtrans1a.png)
+**Figura 1a.** _Configuración de String operations en Pentaho._
+
+![Configuración de Replace in string en Pentaho](img/EXCELtrans1b.png)
+**Figura 1b.** _Configuración de Replace in string para corregir nombres y apellidos en Pentaho._
+
+#### 4.1.2 Validación de fechas
+Verifica que `FECHA ADMISION` y `FECHA ESTADO` sean fechas reales y coherentes. Los dos campos llegan como texto y un registro (L000101) tiene un formato distinto. La validación se hizo en tres pasos:
+
+1. **Replace in string**, paso `NORMALIZAR FECHAS`: con una expresión regular, toma los valores con formato `dd/MM/yyyy` o `MM/dd/yyyy` (descartando el carácter basura inicial) y los reescribe como `yyyy/MM/dd 00:00:00.000`, el formato del resto de los registros. `12/06/2014` se interpretó como 6 de diciembre de 2014, siguiendo el patrón del registro vecino L000102. Ver Figura 2a.
+2. **Select values** (pestaña Meta-data), paso `CONVERTIR FECHAS`: convierte ambos campos de texto a tipo *Date* con la máscara `yyyy/MM/dd HH:mm:ss.SSS` y *Date Format Lenient = N*. Una fecha inexistente produciría un error en este paso. Ver Figura 2b.
+3. **Filter rows**, paso `VALIDAR FECHAS`: comprueba la regla de negocio `FECHA ESTADO >= FECHA ADMISION`. Los registros que la cumplen pasan a la salida y los demás se envían al paso `FECHAS INVALIDAS` (Dummy). Ver Figura 2c.
+
+En la salida, las fechas se escriben con formato `yyyy-MM-dd`.
+
+![Normalización de fechas en Pentaho](img/EXCELtrans2a.png)
+**Figura 2a.** _Configuración de Replace in string para normalizar fechas en Pentaho._
+
+![Conversión a tipo fecha en Pentaho](img/EXCELtrans2b.png)
+**Figura 2b.** _Configuración de Select values para convertir a tipo fecha en Pentaho._
+
+![Validación de fechas en Pentaho](img/EXCELtrans2c.png)
+**Figura 2c.** _Configuración de Filter rows para validar fechas en Pentaho.__
 
 ### 4.2 Transformaciones sobre el JSON
 
@@ -256,6 +293,16 @@ El orden es importante. Primero se retiran los puntos de miles, luego se convier
 ## 5. Flujo ETL desarrollado
 
 ### 5.1 Diagrama Excel
+El flujo tiene siete pasos:
+
+1. **Microsoft Excel input, `Staging` (Extract):** lee `Estudiantes.xls` y extrae los 9 campos.
+2. **String operations, `LIMPIAR NOMBRES` (Transform):** elimina espacios y aplica mayúscula inicial en nombres y apellidos.
+3. **Replace in string, `CORREGIR NOMBRES` (Transform):** corrige los caracteres dañados (`||`, `~`, `�`) y las partículas.
+4. **Replace in string, `NORMALIZAR FECHAS` (Transform):** unifica el texto de las fechas al formato `yyyy/MM/dd HH:mm:ss.SSS`.
+5. **Select values, `CONVERTIR FECHAS` (Transform):** convierte los dos campos de fecha a tipo *Date*.
+6. **Filter rows, `VALIDAR FECHAS` (Transform):** deja pasar solo los registros con `FECHA ESTADO >= FECHA ADMISION`; el resto va al paso `FECHAS INVALIDAS` (Dummy).
+7. **Microsoft Excel writer, `SALIDA ESTUDIANTES` (Load):** escribe los registros validados en `Resultado/Estudiantes_estandarizado.xlsx`.
+
 ![Flujo ETL Excel](img/flujoEXCEL.png)
 **Figura 7.** _Flujo ETL Excel._
 
@@ -289,10 +336,14 @@ El flujo tiene cuatro pasos:
 
 ### 6.1 Excel
 #### 6.1.1 Excel antes
+Vista previa del paso de entrada con los datos originales. En `NOMBRES` y `APELLIDOS` aparecen caracteres dañados (`Mu~oz Molina`, `Ram�n`, `Alarc�n`), y en `FECHA ESTADO` el primer registro tiene un carácter basura y un formato distinto (`�12/06/2014`).
+
 ![Excel antes de la transformacion](img/EXCELantes.png)
 **Figura 10.** _Datos antes de la transformacion._
 
 #### 6.1.2 Excel después
+Contenido del archivo de salida `Estudiantes_estandarizado.xlsx`. Los nombres y apellidos quedan sin caracteres dañados ni espacios sobrantes, con la primera letra en mayúscula (`Muñoz Molina`, `Ramón`, `José`). Las fechas quedan en formato `yyyy-MM-dd`; por ejemplo, el registro L000101 muestra `2014-12-06`. Los 99 registros cumplieron la regla `FECHA ESTADO >= FECHA ADMISION` y el paso `FECHAS INVALIDAS` no recibió ninguno.
+
 ![Excel despues de la transformacion](img/EXCELdespues.png)
 **Figura 11.** _Datos despues de la transformacion._
 
