@@ -4,7 +4,7 @@
 ### Facultad de Ingeniería de Sistemas
 
 **Asignatura:** Business Intelligence
-**Paralelo:** _[Completar]_
+**Paralelo:** GR2SW
 
 ## Práctica 1. Implementación de un proceso ETL y Staging Area con Pentaho Data Integration
 
@@ -12,51 +12,55 @@
 - Alvaro Montalvan
 - Ruben Cuenca
 - Jonathan Cuasapaz
-- Ruben Cuenca
+- Jeremy Jimenez
 
-**Fecha:** _[10/10/2026]_
+**Fecha:** 10/10/2026
 
 </div>
 
 ---
 ## Índice
 
-- [Índice de figuras](#índice-de-figuras)
-- [Índice de tablas](#índice-de-tablas)
-- [1. Objetivo del proceso](#1-objetivo-del-proceso)
-- [2. Fuentes de datos utilizadas](#2-fuentes-de-datos-utilizadas)
-- [3. Problemas encontrados en los datos](#3-problemas-encontrados-en-los-datos)
-  - [3.1 Problemas en el archivo Excel (.xls)](#31-problemas-en-el-archivo-excel-xls)
-  - [3.2 Problemas en el archivo JSON (.json)](#32-problemas-en-el-archivo-json-json)
-  - [3.3 Problemas en el archivo CSV (.csv)](#33-problemas-en-el-archivo-csv-csv)
-- [4. Transformaciones aplicadas](#4-transformaciones-aplicadas)
-  - [4.1 Transformaciones sobre el Excel](#41-transformaciones-sobre-el-excel)
-    - [4.1.1 Corrección de nombres y apellidos](#411-corrección-de-nombres-y-apellidos)
-    - [4.1.2 Validación de fechas](#412-validación-de-fechas)
-  - [4.2 Transformaciones sobre el JSON](#42-transformaciones-sobre-el-json)
-    - [4.2.1 Mapeo de valores](#421-mapeo-de-valores)
-    - [4.2.2 Filtrar filas](#422-filtrar-filas)
-  - [4.3 Transformaciones sobre el CSV](#43-transformaciones-sobre-el-csv)
-    - [4.3.1 Estandarizacion de Fechas](#431-estandarizacion-de-fechas)
-    - [4.3.2 Estandarización de montos](#432-estandarización-de-montos)
-- [5. Flujo ETL desarrollado](#5-flujo-etl-desarrollado)
-  - [5.1 Diagrama Excel](#51-diagrama-excel)
-  - [5.2 Diagrama JSON](#52-diagrama-json)
-  - [5.3 Diagrama CSV](#53-diagrama-csv)
-- [6. Evidencia del resultado](#6-evidencia-del-resultado)
-  - [6.1 Excel](#61-excel)
-    - [6.1.1 Excel antes](#611-excel-antes)
-    - [6.1.2 Excel después](#612-excel-después)
-  - [6.2 JSON](#62-json)
-    - [6.2.1 JSON antes](#621-json-antes)
-    - [6.2.2 JSON después](#622-json-después)
-  - [6.3 CSV](#63-csv)
-    - [6.3.1 CSV antes](#631-csv-antes)
-    - [6.3.2 CSV después](#632-csv-después)
-- [7. Relación con una arquitectura de Data Warehouse](#7-relación-con-una-arquitectura-de-data-warehouse)
-- [8. Conclusiones](#8-conclusiones)
-- [9. Referencias bibliográficas](#9-referencias-bibliográficas)
-- [10. Declaración de uso de Inteligencia Artificial](#10-declaración-de-uso-de-inteligencia-artificial)
+- [ESCUELA POLITÉCNICA NACIONAL](#escuela-politécnica-nacional)
+    - [Facultad de Ingeniería de Sistemas](#facultad-de-ingeniería-de-sistemas)
+  - [Práctica 1. Implementación de un proceso ETL y Staging Area con Pentaho Data Integration](#práctica-1-implementación-de-un-proceso-etl-y-staging-area-con-pentaho-data-integration)
+  - [Índice](#índice)
+  - [Índice de figuras](#índice-de-figuras)
+  - [Índice de tablas](#índice-de-tablas)
+  - [1. Objetivo del proceso](#1-objetivo-del-proceso)
+  - [2. Fuentes de datos utilizadas](#2-fuentes-de-datos-utilizadas)
+  - [3. Problemas encontrados en los datos](#3-problemas-encontrados-en-los-datos)
+    - [3.1 Problemas en el archivo Excel (.xls)](#31-problemas-en-el-archivo-excel-xls)
+    - [3.2 Problemas en el archivo JSON (.json)](#32-problemas-en-el-archivo-json-json)
+    - [3.3 Problemas en el archivo CSV (.csv)](#33-problemas-en-el-archivo-csv-csv)
+  - [4. Transformaciones aplicadas](#4-transformaciones-aplicadas)
+    - [4.1 Transformaciones sobre el Excel](#41-transformaciones-sobre-el-excel)
+      - [4.1.1 Corrección de nombres y apellidos](#411-corrección-de-nombres-y-apellidos)
+      - [4.1.2 Validación de fechas](#412-validación-de-fechas)
+    - [4.2 Transformaciones sobre el JSON](#42-transformaciones-sobre-el-json)
+      - [4.2.1 Mapeo de valores](#421-mapeo-de-valores)
+      - [4.2.2 Filtrar filas](#422-filtrar-filas)
+    - [4.3 Transformaciones sobre el CSV](#43-transformaciones-sobre-el-csv)
+      - [4.3.1 Estandarizacion de Fechas](#431-estandarizacion-de-fechas)
+      - [4.3.2 Estandarización de montos](#432-estandarización-de-montos)
+  - [5. Flujo ETL desarrollado](#5-flujo-etl-desarrollado)
+    - [5.1 Diagrama Excel](#51-diagrama-excel)
+    - [5.2 Diagrama JSON](#52-diagrama-json)
+    - [5.3 Diagrama CSV](#53-diagrama-csv)
+  - [6. Evidencia del resultado](#6-evidencia-del-resultado)
+    - [6.1 Excel](#61-excel)
+      - [6.1.1 Excel antes](#611-excel-antes)
+      - [6.1.2 Excel después](#612-excel-después)
+    - [6.2 JSON](#62-json)
+      - [6.2.1 JSON antes](#621-json-antes)
+      - [6.2.2 JSON después](#622-json-después)
+    - [6.3 CSV](#63-csv)
+      - [6.3.1 CSV antes](#631-csv-antes)
+      - [6.3.2 CSV después](#632-csv-después)
+  - [7. Relación con una arquitectura de Data Warehouse](#7-relación-con-una-arquitectura-de-data-warehouse)
+  - [8. Conclusiones](#8-conclusiones)
+  - [9. Referencias bibliográficas](#9-referencias-bibliográficas)
+  - [10. Declaración de uso de Inteligencia Artificial](#10-declaración-de-uso-de-inteligencia-artificial)
 
 ---
 
@@ -165,13 +169,13 @@ Para lograrlo se plantean los siguientes objetivos específicos:
 ### 4.1 Transformaciones sobre el Excel
 
 #### 4.1.1 Corrección de nombres y apellidos
-Corrige los caracteres dañados por la codificación, elimina espacios sobrantes y unifica el uso de mayúsculas en los campos `NOMBRES` y `APELLIDOS`. Se aplicó en dos pasos, siempre sobrescribiendo los mismos campos:
+Corrige los caracteres dañados por la codificación y elimina espacios sobrantes en los campos `NOMBRES` y `APELLIDOS`. Se aplicó en dos pasos, siempre sobrescribiendo los mismos campos:
 
-1. **String operations** (carpeta Transform), paso `LIMPIAR NOMBRES`: elimina los espacios al inicio y al final (*Trim type = both*) y convierte la primera letra de cada palabra en mayúscula (*InitCap = Y*). Así `fierro Mu~oz` pasa a `Fierro Mu~oz`. Ver Figura 1a.
+1. **String operations** (carpeta Transform), paso `LIMPIAR NOMBRES`: elimina los espacios al inicio y al final (*Trim type = both*). No modifica mayúsculas ni minúsculas (*InitCap = N*). Ver Figura 1a.
 2. **Replace in string** (carpeta Transform), paso `CORREGIR NOMBRES`, con la opción *Use RegEx* activada. Ver Figura 1b. Se aplican reemplazos que:
    - convierten `||` en `é` y `~` en `ñ`;
    - restituyen las palabras con `�` (Ramón, María, Mónica, Julián, Tránsito, Alarcón, Díaz, Marín, López, Terán, Chávez, Román), usando `[^ -~]` para reconocer el carácter dañado sin teclearlo;
-   - devuelven a minúscula las partículas `del`, `de` y `las`, que InitCap había puesto en mayúscula;
+   - devuelven a minúscula las partículas `Del`, `De` y `Las`;
    - reducen a un solo espacio los dobles espacios internos.
 
 **Tabla 5.** _Ejemplos de la corrección de nombres y apellidos._
@@ -180,7 +184,7 @@ Corrige los caracteres dañados por la codificación, elimina espacios sobrantes
 |----------------|-----------|
 | `Jos\|\| Luis` | `José Luis` |
 | `Mar�a Ang\|\|lica` | `María Angélica` |
-| `fierro Mu~oz` | `Fierro Muñoz` |
+| `fierro Mu~oz` | `fierro Muñoz` |
 | `Biava  Gonzalez` | `Biava Gonzalez` |
 | `Celia del transito` | `Celia del Tránsito` |
 
@@ -195,7 +199,7 @@ Verifica que `FECHA ADMISION` y `FECHA ESTADO` sean fechas reales y coherentes. 
 
 1. **Replace in string**, paso `NORMALIZAR FECHAS`: con una expresión regular, toma los valores con formato `dd/MM/yyyy` o `MM/dd/yyyy` (descartando el carácter basura inicial) y los reescribe como `yyyy/MM/dd 00:00:00.000`, el formato del resto de los registros. `12/06/2014` se interpretó como 6 de diciembre de 2014, siguiendo el patrón del registro vecino L000102. Ver Figura 2a.
 2. **Select values** (pestaña Meta-data), paso `CONVERTIR FECHAS`: convierte ambos campos de texto a tipo *Date* con la máscara `yyyy/MM/dd HH:mm:ss.SSS` y *Date Format Lenient = N*. Una fecha inexistente produciría un error en este paso. Ver Figura 2b.
-3. **Filter rows**, paso `VALIDAR FECHAS`: comprueba la regla de negocio `FECHA ESTADO >= FECHA ADMISION`. Los registros que la cumplen pasan a la salida y los demás se envían al paso `FECHAS INVALIDAS` (Dummy). Ver Figura 2c.
+3. **Filter rows**, paso `VALIDAR FECHAS`: comprueba la regla de negocio `FECHA ESTADO >= FECHA ADMISION`. Los registros que la cumplen pasan a la salida y los demás se descartan, ya que el paso no tiene un destino para los registros que no la cumplen. Ver Figura 2c.
 
 En la salida, las fechas se escriben con formato `yyyy-MM-dd`.
 
@@ -285,13 +289,13 @@ El orden es importante. Primero se retiran los puntos de miles, luego se convier
 ### 5.1 Diagrama Excel
 El flujo tiene siete pasos:
 
-1. **Microsoft Excel input, `Staging` (Extract):** lee `Estudiantes.xls` y extrae los 9 campos.
-2. **String operations, `LIMPIAR NOMBRES` (Transform):** elimina espacios y aplica mayúscula inicial en nombres y apellidos.
+1. **Microsoft Excel input, `Microsoft Excel input` (Extract):** lee `Estudiantes.xls` y extrae los 9 campos.
+2. **String operations, `LIMPIAR NOMBRES` (Transform):** elimina los espacios sobrantes en nombres y apellidos.
 3. **Replace in string, `CORREGIR NOMBRES` (Transform):** corrige los caracteres dañados (`||`, `~`, `�`) y las partículas.
 4. **Replace in string, `NORMALIZAR FECHAS` (Transform):** unifica el texto de las fechas al formato `yyyy/MM/dd HH:mm:ss.SSS`.
 5. **Select values, `CONVERTIR FECHAS` (Transform):** convierte los dos campos de fecha a tipo *Date*.
-6. **Filter rows, `VALIDAR FECHAS` (Transform):** deja pasar solo los registros con `FECHA ESTADO >= FECHA ADMISION`; el resto va al paso `FECHAS INVALIDAS` (Dummy).
-7. **Microsoft Excel writer, `SALIDA ESTUDIANTES` (Load):** escribe los registros validados en `Resultado/Estudiantes_estandarizado.xlsx`.
+6. **Filter rows, `VALIDAR FECHAS` (Transform):** deja pasar solo los registros con `FECHA ESTADO >= FECHA ADMISION`; el resto se descarta.
+7. **Microsoft Excel writer, `SALIDA ESTUDIANTES` (Load):** escribe los registros validados en `Resultado/Estudiantes_estandarizado.xls`.
 
 ![Flujo ETL Excel](img/flujoEXCEL.png)
 **Figura 7.** _Flujo ETL Excel._
@@ -310,10 +314,10 @@ El flujo tiene cuatro pasos:
 ### 5.3 Diagrama CSV
 El flujo tiene cuatro pasos:
 
-1. **Text file input (Extract):** lee el archivo `messy-data-pack-1000.csv` y extrae los 7 campos.
+1. **CSV file input (Extract):** lee el archivo `messy-data-pack-1000.csv` y extrae los 7 campos.
 2. **Replace in string, montos (Transform):** unifica el campo `amount` a un número con punto decimal.
 3. **Replace in string, fechas (Transform):** unifica el campo `date` al formato `yyyy-MM-dd`.
-4. **Text file output (Load):** escribe los registros estandarizados en `datos_estandarizados.csv`.
+4. **Text file output, `Salida_estandarizada` (Load):** escribe los registros estandarizados en `Resultado/Salida_estandarizada.txt`.
 
 ![Flujo ETL CSV](img/flujoCSV.png)
 **Figura 9.** _Flujo ETL CSV._
@@ -332,7 +336,7 @@ Vista previa del paso de entrada con los datos originales. En `NOMBRES` y `APELL
 **Figura 10.** _Datos Excel antes de la transformación._
 
 #### 6.1.2 Excel después
-Contenido del archivo de salida `Estudiantes_estandarizado.xlsx`. Los nombres y apellidos quedan sin caracteres dañados ni espacios sobrantes, con la primera letra en mayúscula (`Muñoz Molina`, `Ramón`, `José`). Las fechas quedan en formato `yyyy-MM-dd`; por ejemplo, el registro L000101 muestra `2014-12-06`. Los 99 registros cumplieron la regla `FECHA ESTADO >= FECHA ADMISION` y el paso `FECHAS INVALIDAS` no recibió ninguno.
+Contenido del archivo de salida `Estudiantes_estandarizado.xls`. Los nombres y apellidos quedan sin caracteres dañados ni espacios sobrantes (`Muñoz Molina`, `Ramón`, `José`). Las fechas quedan en formato `yyyy-MM-dd`; por ejemplo, el registro L000101 muestra `2014-12-06`. Los 99 registros cumplieron la regla `FECHA ESTADO >= FECHA ADMISION`, por lo que ninguno fue descartado.
 
 ![Excel despues de la transformacion](img/EXCELdespues.png)
 **Figura 11.** _Datos Excel después de la transformación._
@@ -386,11 +390,12 @@ El proceso desarrollado es una versión simplificada de la forma en que se alime
 
 ## 9. Referencias bibliográficas
 
-1. _[Hitachi Vantara. (s. f.). Pentaho Data Integration 10.2 documentation. Pentaho Documentation. https://docs.pentaho.com/pdia-data-integration/10.2-data-integration]_
-2. _[Gomstyn, A., & McGrath, A. (2024, 16 de diciembre). What is ETL (extract, transform, load)? IBM. https://www.ibm.com/think/topics/etl]_
-3. _[NYC OpenData. (s. f.). Motor vehicle collisions – Crashes [Conjunto de datos]. City of New York. https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95]_
+1. Hitachi Vantara. (s. f.). Pentaho Data Integration 10.2 documentation. Pentaho Documentation. https://docs.pentaho.com/pdia-data-integration/10.2-data-integration
+2. Gomstyn, A., & McGrath, A. (2024, 16 de diciembre). What is ETL (extract, transform, load)? IBM. https://www.ibm.com/think/topics/etl
+3. NYC OpenData. (s. f.). Motor vehicle collisions – Crashes [Conjunto de datos]. City of New York. https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95
 
 ---
 
-## 10. Declaración de uso de Inteligencia Artificial: 20%
-Para esta práctica se utilizó un aproximado de 20% de inteligencia artificial. En su mayoría para correcciones de redacción, ortografía, y formato de markdown.
+## 10. Declaración de uso de Inteligencia Artificial
+
+Para esta práctica se utilizó aproximadamente un **20%** de inteligencia artificial. En su mayoría para correcciones de redacción, ortografía, y formato de markdown.
