@@ -21,46 +21,42 @@
 ---
 ## Índice
 
-- [ESCUELA POLITÉCNICA NACIONAL](#escuela-politécnica-nacional)
-    - [Facultad de Ingeniería de Sistemas](#facultad-de-ingeniería-de-sistemas)
-  - [Práctica 1. Implementación de un proceso ETL y Staging Area con Pentaho Data Integration](#práctica-1-implementación-de-un-proceso-etl-y-staging-area-con-pentaho-data-integration)
-  - [Índice](#índice)
-  - [Índice de figuras](#índice-de-figuras)
-  - [Índice de tablas](#índice-de-tablas)
-  - [1. Objetivo del proceso](#1-objetivo-del-proceso)
-  - [2. Fuentes de datos utilizadas](#2-fuentes-de-datos-utilizadas)
-  - [3. Problemas encontrados en los datos](#3-problemas-encontrados-en-los-datos)
-    - [3.1 Problemas en el archivo Excel (.xls)](#31-problemas-en-el-archivo-excel-xls)
-    - [3.2 Problemas en el archivo JSON (.json)](#32-problemas-en-el-archivo-json-json)
-    - [3.3 Problemas en el archivo CSV (.csv)](#33-problemas-en-el-archivo-csv-csv)
-  - [4. Transformaciones aplicadas](#4-transformaciones-aplicadas)
-    - [4.1 Transformaciones sobre el Excel](#41-transformaciones-sobre-el-excel)
-      - [4.1.1 Corrección de nombres y apellidos](#411-corrección-de-nombres-y-apellidos)
-      - [4.1.2 Validación de fechas](#412-validación-de-fechas)
-    - [4.2 Transformaciones sobre el JSON](#42-transformaciones-sobre-el-json)
-      - [4.2.1 Mapeo de valores](#421-mapeo-de-valores)
-      - [4.2.2 Filtrar filas](#422-filtrar-filas)
-    - [4.3 Transformaciones sobre el CSV](#43-transformaciones-sobre-el-csv)
-      - [4.3.1 Estandarizacion de Fechas](#431-estandarizacion-de-fechas)
-      - [4.3.2 Estandarización de montos](#432-estandarización-de-montos)
-  - [5. Flujo ETL desarrollado](#5-flujo-etl-desarrollado)
-    - [5.1 Diagrama Excel](#51-diagrama-excel)
-    - [5.2 Diagrama JSON](#52-diagrama-json)
-    - [5.3 Diagrama CSV](#53-diagrama-csv)
-  - [6. Evidencia del resultado](#6-evidencia-del-resultado)
-    - [6.1 Excel](#61-excel)
-      - [6.1.1 Excel antes](#611-excel-antes)
-      - [6.1.2 Excel después](#612-excel-después)
-    - [6.2 JSON](#62-json)
-      - [6.2.1 JSON antes](#621-json-antes)
-      - [6.2.2 JSON después](#622-json-después)
-    - [6.3 CSV](#63-csv)
-      - [6.3.1 CSV antes](#631-csv-antes)
-      - [6.3.2 CSV después](#632-csv-después)
-  - [7. Relación con una arquitectura de Data Warehouse](#7-relación-con-una-arquitectura-de-data-warehouse)
-  - [8. Conclusiones](#8-conclusiones)
-  - [9. Referencias bibliográficas](#9-referencias-bibliográficas)
-  - [10. Declaración de uso de Inteligencia Artificial](#10-declaración-de-uso-de-inteligencia-artificial)
+- [Índice de figuras](#índice-de-figuras)
+- [Índice de tablas](#índice-de-tablas)
+- [1. Objetivo del proceso](#1-objetivo-del-proceso)
+- [2. Fuentes de datos utilizadas](#2-fuentes-de-datos-utilizadas)
+- [3. Problemas encontrados en los datos](#3-problemas-encontrados-en-los-datos)
+  - [3.1 Problemas en el archivo Excel (.xls)](#31-problemas-en-el-archivo-excel-xls)
+  - [3.2 Problemas en el archivo JSON (.json)](#32-problemas-en-el-archivo-json-json)
+  - [3.3 Problemas en el archivo CSV (.csv)](#33-problemas-en-el-archivo-csv-csv)
+- [4. Transformaciones aplicadas](#4-transformaciones-aplicadas)
+  - [4.1 Transformaciones sobre el Excel](#41-transformaciones-sobre-el-excel)
+    - [4.1.1 Corrección de nombres y apellidos](#411-corrección-de-nombres-y-apellidos)
+    - [4.1.2 Validación de fechas](#412-validación-de-fechas)
+  - [4.2 Transformaciones sobre el JSON](#42-transformaciones-sobre-el-json)
+    - [4.2.1 Mapeo de valores](#421-mapeo-de-valores)
+    - [4.2.2 Filtrar filas](#422-filtrar-filas)
+  - [4.3 Transformaciones sobre el CSV](#43-transformaciones-sobre-el-csv)
+    - [4.3.1 Estandarizacion de Fechas](#431-estandarizacion-de-fechas)
+    - [4.3.2 Estandarización de montos](#432-estandarización-de-montos)
+- [5. Flujo ETL desarrollado](#5-flujo-etl-desarrollado)
+  - [5.1 Diagrama Excel](#51-diagrama-excel)
+  - [5.2 Diagrama JSON](#52-diagrama-json)
+  - [5.3 Diagrama CSV](#53-diagrama-csv)
+- [6. Evidencia del resultado](#6-evidencia-del-resultado)
+  - [6.1 Excel](#61-excel)
+    - [6.1.1 Excel antes](#611-excel-antes)
+    - [6.1.2 Excel después](#612-excel-después)
+  - [6.2 JSON](#62-json)
+    - [6.2.1 JSON antes](#621-json-antes)
+    - [6.2.2 JSON después](#622-json-después)
+  - [6.3 CSV](#63-csv)
+    - [6.3.1 CSV antes](#631-csv-antes)
+    - [6.3.2 CSV después](#632-csv-después)
+- [7. Relación con una arquitectura de Data Warehouse](#7-relación-con-una-arquitectura-de-data-warehouse)
+- [8. Conclusiones](#8-conclusiones)
+- [9. Referencias bibliográficas](#9-referencias-bibliográficas)
+- [10. Declaración de uso de Inteligencia Artificial](#10-declaración-de-uso-de-inteligencia-artificial)
 
 ---
 
@@ -69,15 +65,15 @@
 
 | N.º | Título | Sección |
 |-----|--------|---------|
-| Figura 1a | Configuración de String operations (limpieza de nombres y apellidos) | [4.1.1](#411-corrección-de-nombres-y-apellidos) |
-| Figura 1b | Configuración de Replace in string (corrección de caracteres) | [4.1.1](#411-corrección-de-nombres-y-apellidos) |
-| Figura 2a | Configuración de Replace in string (normalización de fechas) | [4.1.2](#412-validación-de-fechas) |
-| Figura 2b | Configuración de Select values (conversión a tipo fecha) | [4.1.2](#412-validación-de-fechas) |
-| Figura 2c | Configuración de Filter rows (validación de fechas) | [4.1.2](#412-validación-de-fechas) |
+| Figura 1a | Configuración de String operations en Pentaho | [4.1.1](#411-corrección-de-nombres-y-apellidos) |
+| Figura 1b | Configuración de Replace in string para corregir nombres y apellidos en Pentaho | [4.1.1](#411-corrección-de-nombres-y-apellidos) |
+| Figura 2a | Configuración de Replace in string para normalizar fechas en Pentaho | [4.1.2](#412-validación-de-fechas) |
+| Figura 2b | Configuración de Select values para convertir a tipo fecha en Pentaho | [4.1.2](#412-validación-de-fechas) |
+| Figura 2c | Configuración de Filter rows para validar fechas en Pentaho | [4.1.2](#412-validación-de-fechas) |
 | Figura 3 | Configuración de Mapeo de valores en Pentaho | [4.2.1](#421-mapeo-de-valores) |
 | Figura 4 | Configuración de Filtrar Filas en Pentaho | [4.2.2](#422-filtrar-filas) |
-| Figura 5 | Configuración de _[transformación 1]_ en Pentaho (CSV) | [4.3.1](#431-transformación-1) |
-| Figura 6 | Configuración de _[transformación 2]_ en Pentaho (CSV) | [4.3.2](#432-transformación-2) |
+| Figura 5 | Configuración de la estandarización de fechas en Pentaho | [4.3.1](#431-estandarizacion-de-fechas) |
+| Figura 6 | Configuración de la estandarización de montos en Pentaho | [4.3.2](#432-estandarización-de-montos) |
 | Figura 7 | Flujo ETL Excel | [5.1](#51-diagrama-excel) |
 | Figura 8 | Flujo ETL JSON | [5.2](#52-diagrama-json) |
 | Figura 9 | Flujo ETL CSV | [5.3](#53-diagrama-csv) |
@@ -87,7 +83,6 @@
 | Figura 13 | Datos JSON después de la transformación | [6.2.2](#622-json-después) |
 | Figura 14 | Datos CSV antes de la transformación | [6.3.1](#631-csv-antes) |
 | Figura 15 | Datos CSV después de la transformación | [6.3.2](#632-csv-después) |
-| Figura 16 | Arquitectura de Data Warehouse y ubicación del proceso desarrollado | [7](#7-relación-con-una-arquitectura-de-data-warehouse) |
 
 ## Índice de tablas
 
@@ -97,6 +92,9 @@
 | Tabla 2 | Problemas de calidad de datos en el archivo Excel | [3.1](#31-problemas-en-el-archivo-excel-xls) |
 | Tabla 3 | Problemas de calidad de datos en el archivo JSON | [3.2](#32-problemas-en-el-archivo-json-json) |
 | Tabla 4 | Problemas de calidad de datos en el archivo CSV | [3.3](#33-problemas-en-el-archivo-csv-csv) |
+| Tabla 5 | Ejemplos de la corrección de nombres y apellidos | [4.1.1](#411-corrección-de-nombres-y-apellidos) |
+| Tabla 6 | Reemplazos para la estandarización de fechas | [4.3.1](#431-estandarizacion-de-fechas) |
+| Tabla 7 | Ejemplos de la estandarización de montos | [4.3.2](#432-estandarización-de-montos) |
 
 ---
 
@@ -176,6 +174,8 @@ Corrige los caracteres dañados por la codificación, elimina espacios sobrantes
    - devuelven a minúscula las partículas `del`, `de` y `las`, que InitCap había puesto en mayúscula;
    - reducen a un solo espacio los dobles espacios internos.
 
+**Tabla 5.** _Ejemplos de la corrección de nombres y apellidos._
+
 | Valor original | Resultado |
 |----------------|-----------|
 | `Jos\|\| Luis` | `José Luis` |
@@ -206,7 +206,7 @@ En la salida, las fechas se escriben con formato `yyyy-MM-dd`.
 **Figura 2b.** _Configuración de Select values para convertir a tipo fecha en Pentaho._
 
 ![Validación de fechas en Pentaho](img/EXCELtrans2c.png)
-**Figura 2c.** _Configuración de Filter rows para validar fechas en Pentaho.__
+**Figura 2c.** _Configuración de Filter rows para validar fechas en Pentaho._
 
 ### 4.2 Transformaciones sobre el JSON
 
@@ -245,6 +245,8 @@ Las filas que no cumplen la condición no se envían a ningún paso, por lo que 
 #### 4.3.1 Estandarizacion de Fechas
 Unifica los cuatro formatos del campo `date` en el formato ISO `yyyy-MM-dd`. Se usó el paso **Replace in string** (carpeta Transform), que busca un texto en el campo y lo reemplaza por otro. Como se observa en la Figura 5, se configuraron tres reemplazos sobre el campo `date`, sobrescribiendo el mismo campo:
 
+**Tabla 6.** _Reemplazos para la estandarización de fechas._
+
 | Formato original | Buscar | Reemplazar por |
 |------------------|--------|----------------|
 | Estilo EE. UU. | `03/14/2026` | `2026-03-14` |
@@ -265,6 +267,8 @@ Unifica los dos formatos del campo `amount` en un número con punto como separad
 
 El orden es importante. Primero se retiran los puntos de miles, luego se convierte la coma decimal y al final se eliminan las comas de miles que quedan.
 
+**Tabla 7.** _Ejemplos de la estandarización de montos._
+
 | Valor original | Formato | Resultado |
 |----------------|---------|-----------|
 | `1,978.51` | EE. UU. | `1978.51` |
@@ -272,7 +276,7 @@ El orden es importante. Primero se retiran los puntos de miles, luego se convier
 | `2.637,12` | Europeo | `2637.12` |
 
 ![Configuración del paso en Pentaho](img/CSVtrans2.png)
-**Figura 6.** _Configuración de la estandarización de montosen Pentaho._
+**Figura 6.** _Configuración de la estandarización de montos en Pentaho._
 
 ---
 
@@ -325,48 +329,50 @@ El flujo tiene cuatro pasos:
 Vista previa del paso de entrada con los datos originales. En `NOMBRES` y `APELLIDOS` aparecen caracteres dañados (`Mu~oz Molina`, `Ram�n`, `Alarc�n`), y en `FECHA ESTADO` el primer registro tiene un carácter basura y un formato distinto (`�12/06/2014`).
 
 ![Excel antes de la transformacion](img/EXCELantes.png)
-**Figura 10.** _Datos antes de la transformacion._
+**Figura 10.** _Datos Excel antes de la transformación._
 
 #### 6.1.2 Excel después
 Contenido del archivo de salida `Estudiantes_estandarizado.xlsx`. Los nombres y apellidos quedan sin caracteres dañados ni espacios sobrantes, con la primera letra en mayúscula (`Muñoz Molina`, `Ramón`, `José`). Las fechas quedan en formato `yyyy-MM-dd`; por ejemplo, el registro L000101 muestra `2014-12-06`. Los 99 registros cumplieron la regla `FECHA ESTADO >= FECHA ADMISION` y el paso `FECHAS INVALIDAS` no recibió ninguno.
 
 ![Excel despues de la transformacion](img/EXCELdespues.png)
-**Figura 11.** _Datos despues de la transformacion._
+**Figura 11.** _Datos Excel después de la transformación._
 
 ### 6.2 JSON
 #### 6.2.1 JSON antes
 Vista previa del paso JSON input con los datos originales. En `vehicle_type_code1` aparecen etiquetas distintas para un mismo tipo de vehículo, por ejemplo "Station Wagon/Sport Utility Vehicle", "Carry All", "4 dr sedan", "PK" o "Dump". En `contributing_factor_vehicle_1` hay muchos registros con valor "Unspecified".
 
 ![JSON antes de la transformacion](img/JSONantes.png)
-**Figura 12.** _Datos antes de la transformacion._
+**Figura 12.** _Datos JSON antes de la transformación._
 
 #### 6.2.2 JSON después
 Vista previa del archivo de salida, leído de nuevo con un JSON input. Los tipos de vehículo quedan agrupados en categorías estándar: Sedan, SUV, Pickup, Camión pesado y Transporte público. Ya no aparecen registros con causa "Unspecified"; por ejemplo, el choque 4287811, que tenía causa "Unspecified", ya no está en la salida.
 
 ![JSON despues de la transformacion](img/JSONdespues.png)
-**Figura 13.** _Datos despues de la transformacion._
+**Figura 13.** _Datos JSON después de la transformación._
 
 ### 6.3 CSV
 #### 6.3.1 CSV antes
 Vista previa del paso de entrada con los datos originales. En `date` conviven cuatro formatos (`2026-03-14`, `03/14/2026`, `14.03.2026` y `14 March 2026`). En `amount` aparecen montos como `1,978.51` junto a otros como `6.955,90`.
 
 ![CSV antes de la transformacion](img/CSVantes.png)
-**Figura 14.** _Datos antes de la transformacion._
+**Figura 14.** _Datos CSV antes de la transformación._
 
 #### 6.3.2 CSV después
 Vista previa del archivo de salida, leído nuevamente. Todas las fechas quedan en formato `2026-03-14` y todos los montos usan punto decimal y no tienen separador de miles (por ejemplo, `1978.51` y `6955.90`).
 
 ![CSV despues de la transformacion](img/CSVdespues.png)
-**Figura 15.** _Datos despues de la transformacion._
+**Figura 15.** _Datos CSV después de la transformación._
 
 ---
 
 ## 7. Relación con una arquitectura de Data Warehouse
 
-_[Completar]_
+El proceso desarrollado es una versión simplificada de la forma en que se alimenta un Data Warehouse, que integra datos de distintas fuentes en un repositorio único y confiable para el análisis:
 
-![Arquitectura de Data Warehouse](img/arquitecturaDW.png)
-**Figura 16.** _Arquitectura de Data Warehouse y ubicación del proceso desarrollado._
+- **Fuentes de datos:** los archivos Excel, JSON y CSV representan los sistemas de origen de una organización, con formatos y estructuras distintas.
+- **Staging Area:** los datos extraídos se reciben en Pentaho y se preparan sin modificar las fuentes ni afectar al destino. Ahí se detectaron los problemas de la sección 3.
+- **Transformación:** la limpieza y estandarización garantizan que los datos tengan un formato común antes de cargarse, por ejemplo que `4 dr sedan` y `Sedan` no aparezcan como categorías distintas.
+- **Destino:** los archivos de salida representan el Data Warehouse o Data Mart. En una solución real serían tablas de una base de datos, sobre las que se harían los reportes y análisis de Business Intelligence.
 
 ---
 
