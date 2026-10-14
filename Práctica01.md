@@ -1,7 +1,3 @@
-<!-- ============================================================
-     ENCABEZADO (rúbrica: universidad, asignatura, paralelo, integrantes, fecha)
-     ============================================================ -->
-
 <div align="center">
 
 # ESCUELA POLITÉCNICA NACIONAL
@@ -23,12 +19,6 @@
 </div>
 
 ---
-
-<!-- ============================================================
-     ÍNDICE CON HIPERVÍNCULOS (rúbrica)
-     Si cambian un título, actualicen también el ancla del enlace.
-     ============================================================ -->
-
 ## Índice
 
 - [ESCUELA POLITÉCNICA NACIONAL](#escuela-politécnica-nacional)
@@ -76,7 +66,6 @@
 
 ## Índice de figuras
 
-<!-- Numerar todas las figuras de forma correlativa. Cada figura debe tener: número, título y ser referenciada en el texto ("como se observa en la Figura X"). -->
 
 | N.º | Título | Sección |
 |-----|--------|---------|
@@ -108,7 +97,6 @@
 | Tabla 2 | Problemas de calidad de datos en el archivo Excel | [3.1](#31-problemas-en-el-archivo-excel-xls) |
 | Tabla 3 | Problemas de calidad de datos en el archivo JSON | [3.2](#32-problemas-en-el-archivo-json-json) |
 | Tabla 4 | Problemas de calidad de datos en el archivo CSV | [3.3](#33-problemas-en-el-archivo-csv-csv) |
-| Tabla 5 | Declaración de uso de IA | [10](#10-declaración-de-uso-de-inteligencia-artificial) |
 
 ---
 
@@ -142,7 +130,6 @@ Para lograrlo se plantean los siguientes objetivos específicos:
 
 ## 3. Problemas encontrados en los datos
 
-<!-- Identificar problemas de calidad: valores inconsistentes, mayúsculas/minúsculas, espacios, nulos, fechas inválidas, duplicados, formatos distintos, etc. -->
 
 ### 3.1 Problemas en el archivo Excel (.xls)
 
@@ -176,12 +163,6 @@ Para lograrlo se plantean los siguientes objetivos específicos:
 ---
 
 ## 4. Transformaciones aplicadas
-
-<!-- Requisitos:
-     - Parte 1 (dataset provisto / Excel): corregir nombres y apellidos; validar fechas.
-     - Parte 2: al menos dos transformaciones de limpieza o estandarización.
-     Para cada transformación: nombre, descripción breve y captura de la configuración en Pentaho.
-     Al poner el nombre real de la transformación, actualicen también el enlace en el Índice de figuras. -->
 
 ### 4.1 Transformaciones sobre el Excel
 
@@ -382,8 +363,6 @@ Vista previa del archivo de salida, leído nuevamente. Todas las fechas quedan e
 
 ## 7. Relación con una arquitectura de Data Warehouse
 
-<!-- Explicar cómo cada parte del proceso (fuentes, staging area, transformación, destino) se corresponde con los componentes de un Data Warehouse / Data Mart. -->
-
 _[Completar]_
 
 ![Arquitectura de Data Warehouse](img/arquitecturaDW.png)
@@ -393,15 +372,14 @@ _[Completar]_
 
 ## 8. Conclusiones
 
-- _[Conclusión 1]_
-- _[Conclusión 2]_
-- _[Conclusión 3]_
+1. Usando Pentaho se extrajeron datos de Excel, JSON y CSV y se prepararon en una Staging Area antes de generar las salidas como se tenía previsto al inicio de la práctica. Las etapas Extract, Transform y Load funcionan igual sin importar el formato de origen, pues estas dependen de la información dentro de los mismos archivos, más no su proveniencia.
+2. Entre algunas de las inconsistencias que se pudieron encontrar fue que en el Excel había nombres y fechas inconsistentes, en el archivo JSON en cambio había etiquetas duplicadas y causas “Unspecified”, y por su parte, en el CSV había fechas y montos en formatos mezclados. Todos estos problemas se resolvieron usando la herramienta Replace in string, Mapeo de valores y Filtrar filas. La comparación antes y después mostró datos consistentes y listos para analizar.
+3. Finalmente, se concluyó que es una buena práctica el separar la limpieza de la carga final, pues evita que los errores lleguen al destino. Este proceso ya corresponde a la fase de integración al final del proceso, donde los datos limpios pasan a formar parte de un Data Warehouse o Data Mart, donde la calidad de los datos define qué tan confiable es el análisis en BI.
 
 ---
 
 ## 9. Referencias bibliográficas
 
-<!-- Usar norma APA 7 o IEEE de forma consistente. Citar en el texto. -->
 
 1. _[Referencia en formato APA / IEEE]_
 2. _[Referencia en formato APA / IEEE]_
@@ -409,15 +387,3 @@ _[Completar]_
 ---
 
 ## 10. Declaración de uso de Inteligencia Artificial
-
-<!-- Declarar herramienta(s), para qué se usaron y el porcentaje aproximado de uso. -->
-
-**Tabla 5.** _Declaración de uso de IA._
-
-| Herramienta | Uso / Actividad | Sección(es) | Porcentaje aproximado |
-|-------------|-----------------|-------------|-----------------------|
-| _[ ]_ | _[ ]_ | _[ ]_ | _[ ]_ % |
-
-**Porcentaje total de uso de IA en el trabajo:** _[ ]_ %
-
-_[Declaración breve de los integrantes sobre la revisión y validación del contenido generado.]_
