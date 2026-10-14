@@ -114,15 +114,20 @@
 
 ## 1. Objetivo del proceso
 
-<!-- Describir qué se busca lograr con el proceso ETL: qué datos se integran, para qué y cuál es el resultado esperado. -->
+Diseñar y ejecutar con Pentaho Data Integration (Spoon) un proceso de Excract, Transform, Load que extraiga datos desde tres fuentes de formatos distintos (un archivo Excel de estudiantes, un archivo JSON de choques de vehículos de Nueva York y un archivo CSV de facturas), los prepare en una Staging Area y les aplique transformaciones de limpieza y estandarización, de modo que se obtengan datos consistentes y de calidad, listos para ser cargados en un Data Warehouse o Data Mart.
 
-_[Completar]_
+Para lograrlo se plantean los siguientes objetivos específicos:
+
+- Extraer los datos originales de las fuentes Excel (.xls), JSON (.json) y CSV (.csv) mediante los pasos de entrada de Pentaho, y recibirlos en una Staging Area sin modificar la fuente.
+- Identificar los problemas de calidad presentes en cada fuente, como nombres y apellidos con espacios o errores de escritura, fechas en formatos distintos o inválidas, etiquetas distintas para un mismo valor, causas sin especificar y montos con convenciones numéricas opuestas.
+- Transformar los datos con operaciones de limpieza y estandarización: corrección de nombres y apellidos y validación de fechas en el Excel, mapeo de valores y filtrado de filas en el JSON, y unificación de fechas y de montos en el CSV.
+- Cargar los datos procesados en archivos de salida (Excel, JSON y CSV), que representan el destino del proceso en esta práctica.
+- Verificar la calidad y la consistencia de los resultados comparando los datos antes y después de la transformación.
+- Relacionar el proceso desarrollado con los componentes de una arquitectura de Data Warehouse: fuentes de datos, Staging Area, transformación y destino.
 
 ---
 
 ## 2. Fuentes de datos utilizadas
-
-<!-- Requisito: al menos dos tipos diferentes de fuentes de datos. Aquí se documentan tres: XLS, JSON y CSV. -->
 
 **Tabla 1.** _Resumen de las fuentes de datos utilizadas._
 
