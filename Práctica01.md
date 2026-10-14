@@ -380,10 +380,11 @@ _[Completar]_
 
 ## 9. Referencias bibliográficas
 
-
-1. _[Referencia en formato APA / IEEE]_
-2. _[Referencia en formato APA / IEEE]_
+1. _[Hitachi Vantara. (s. f.). Pentaho Data Integration 10.2 documentation. Pentaho Documentation. https://docs.pentaho.com/pdia-data-integration/10.2-data-integration]_
+2. _[Gomstyn, A., & McGrath, A. (2024, 16 de diciembre). What is ETL (extract, transform, load)? IBM. https://www.ibm.com/think/topics/etl]_
+3. _[NYC OpenData. (s. f.). Motor vehicle collisions – Crashes [Conjunto de datos]. City of New York. https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95]_
 
 ---
 
-## 10. Declaración de uso de Inteligencia Artificial
+## 10. Declaración de uso de Inteligencia Artificial: 20%
+Para esta práctica se utilizó un aproximado de 20% de inteligencia artificial. En su mayoría para correcciones de redacción, ortografía, y formato de markdown.
